@@ -36,3 +36,42 @@
     box-shadow: 5px 10px rgb(0, 155, 96);
     text-shadow: 6px 3px 6px rgb(0, 0, 0);
 }
+.rodape {
+    background-color: black;
+    color: rgb(0, 155, 95);
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    font-family: "", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.rodape a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 50px 10px 30px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span {
+    color: rgb(255, 255, 255);
+}
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: rgb(0, 155, 95);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
