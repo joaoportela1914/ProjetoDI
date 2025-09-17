@@ -2,7 +2,15 @@
     font-family: "outfit";
     src: url('./Fontes/Outfit/static/Outfit-Regular.ttf');
 }
+body{
 
+    background-color: blanchedalmond;
+    border: 2px rgb(0, 155, 95) solid;
+    margin: 5px 5px 10px 10px;
+    padding: 0 auto;
+
+
+}
 .menu {
     font-family: "outfit";
     list-style: none;
