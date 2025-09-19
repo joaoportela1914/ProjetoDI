@@ -6,9 +6,55 @@
     <title>EsporteTotal</title>
     <link   href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"/>
     <link rel="icon" type="icon" href="../ProjetoDI/Icones/IconeEsportes.png"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
 </head>
 <body>
-    
+    <form action="arquivo.sql" method="post" >
+        <fieldset>
+        <h3>Formulário</h3>
+        <p>Nome: <input type="text" placeholder="Escreva seu nome" size="50"/></p>
+        <p>Telefone: <input type="tel" maxlength="14" placeholder="(00)00000-0000"/></p>
+        <p>Data de Nascimento: <input type="date" name="DataNascimento"/></p>
+        <p>Senha: <input type="password" maxlength="8"/> <small>Até 8 caracteres</small></p>
+        <p>Email: <input type="email" name="email"/></p>
+        <p>Idade: <input type="number"/></p>
+        <p>Comentários: <textarea rows="5" cols="2">
+        </textarea></p>
+        <br />
+        <br />
+        <p> Gênero:
+            <br />
+        <input type="radio" name="Genero" value="Feminino"/> Feminino
+        <br />
+        <input type="radio" name="Genero" value="Masculino"/> Masculino
+        <br />
+        <input type="radio" name="Genero" value="Outros"/> Outros
+        <br />
+        </p>
+        <p> Estado de Nascimento:
+            <select>
+                <option></option>
+                <option value="DF">DF</option>
+                <option value="BA">BA</option>
+                <option value="GO">GO</option>
+                <option value="MG">MG</option>
+            </select>
+        </p>
+        <br />
+        <p>
+            <input type="checkbox" name="termos"/>
+            Aceito todos os termos desse formulário!!!
+            <br />
+            <input type="checkbox" name="termos"/>
+            Aceito o contrato de LGPD.
+        </p>
+        <br />
+        <input type="reset" name="reset"/>
+        <input type="submit" name="submit"/>
+    </form>
+    <br />
+    <br />
+    <br />
+    </fieldset>
 </body>
 </html>
