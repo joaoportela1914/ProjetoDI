@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
     body {
         
-        background: #f9f9f9;
+        background: #ece6e6;
         color: #333;
         max-width: auto;
         margin:  auto;
@@ -20,7 +21,7 @@
         color: #00a4f0;
         margin-bottom: 40px;
       }
-      
+    
       .noticia {
         /*'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
         font-family: "Montserrat";
@@ -75,7 +76,21 @@
           width: 100%;
         }
       }
-      
+.cabeçalho{
+  display: flex;                 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #dfd5d5;
+}     
+.titulo{
+  
+    font-family: "outfit";
+    font-size: 40px; 
+    font-weight: bold;
+    color: #024f72;
+    text-decoration: none;
+}
+
 .menu {
     font-family: "outfit";
     list-style: none;
@@ -83,13 +98,15 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    border-top: 2px solid black;
-    border-bottom: 3px solid black;
     flex-grow: 1;
+    
+    
 }
 
 .menu li {
-    border-right: 3px solid black;
+    border-right: 2px solid black;
+     flex-grow: 1;
+     text-align: center;
 }
 
 .menu li:last-child {
@@ -99,7 +116,7 @@
 .menu li a {
     color: #00a4f0;
     text-decoration: none;
-    padding: 19px 140px 15px ;
+    padding: 14px 50px ;
     display: block;
 }
 
