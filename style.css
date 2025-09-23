@@ -75,7 +75,100 @@
           flex: unset;
           width: 100%;
         }
+
+        .container-principal {
+          display: flex;
+          gap: 30px;
       }
+      
+      /* --- Layout Principal (continua o mesmo) --- */
+
+.container-principal {
+  display: flex;
+  gap: 30px;
+}
+
+.coluna-ranking,
+.coluna-resultados {
+  flex: 1;
+}
+
+/* --- Estilos da Lista de Ranking (continua o mesmo) --- */
+
+.lista-ranking {
+  list-style-type: none;
+  padding: 0;
+}
+.lista-ranking li {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc; 
+}
+.lista-ranking li:last-child {
+  border-bottom: none;
+}
+
+
+/* --- ESTILOS QUE AGORA SÃO 100% SEGUROS PARA O TÊNIS --- */
+
+/* Dizemos: Aplique na tabela que está DENTRO da seção de tênis */
+.secao-tenis .tabela-resultados {
+  width: 100%;
+}
+
+.secao-tenis .tabela-resultados td {
+  padding: 5px;
+}
+
+/* Alinhamento dos nomes na tabela de tênis */
+.secao-tenis .time-casa { text-align: right; }
+.secao-tenis .time-visitante { text-align: left; }
+.secao-tenis .placar { text-align: center; font-weight: bold; }      
+      }
+      .tabela-resultados {
+        width: 100%;
+        max-width: 700px;
+        margin: 20px auto;
+        border-collapse: collapse; /* Tira o espaço entre as células */
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: hidden; /* Garante que o border-radius funcione */
+    }
+    
+    /* Estilo das células do cabeçalho (th) e das células de dados (td) */
+    .tabela-resultados th,
+    .tabela-resultados td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    /* Estilo específico para o cabeçalho */
+    .tabela-resultados thead {
+        background-color: #f8f9fa;
+        font-size: 14px;
+        color: #6c757d;
+    }
+    
+    /* Estilo para as linhas do corpo da tabela */
+    .tabela-resultados tbody tr:last-child td {
+        border-bottom: none; /* Remove a borda da última linha */
+    }
+    
+    /* Deixa o nome do time da casa alinhado à direita e o visitante à esquerda */
+    .time-casa { text-align: right; font-weight: bold; }
+    .time-visitante { text-align: left; font-weight: bold; }
+    
+    /* Deixa a coluna do placar com um pouco menos de largura */
+    .coluna-placar {
+        width: 80px;
+    }
+    
+    .placar {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
 .calendarios-container {
     display: flex;
     flex-wrap: wrap;
