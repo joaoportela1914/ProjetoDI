@@ -1,0 +1,2675 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+   <link rel="apple-touch-icon" sizes="180x180" href="https://lavercup.com/wp-content/themes/lavercup_spark/assets/favicon-v1/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="https://lavercup.com/wp-content/themes/lavercup_spark/assets/favicon-v1/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="https://lavercup.com/wp-content/themes/lavercup_spark/assets/favicon-v1/favicon-16x16.png">
+   <link rel="manifest" href="https://lavercup.com/wp-content/themes/lavercup_spark/assets/favicon-v1/site.webmanifest">
+   <link rel="shortcut icon" href="https://lavercup.com/wp-content/themes/lavercup_spark/assets/favicon-v1/favicon.ico">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- TEMPORARY OVERWRITE -->
+    <style>
+      header, footer, section{
+        z-index: 1;
+        position: relative;
+      }
+    </style>
+
+    <meta name='robots' content='index, follow, max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	        <!-- DFP GPT header script -->
+        <script type="text/javascript">
+        // CMS targeting variables, to be populated by site
+            window.site = "lavercup" // Static value for tournament site
+            window.sect = "home" // section/subsection/sub-subsection
+        </script>
+
+        <!-- Start: DFP GPT header script -->
+        <script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+        </script>
+        <script type="text/javascript">
+            googletag.cmd.push(function () {
+                
+                // Extract article title from end of url
+                pageURL = window.location.pathname;
+                pageURLArray = pageURL.split('/');
+                articleURL = '';
+                while (pageURLArray.length > 0 && articleURL == '') {
+                articleURL = pageURLArray.pop();
+                }
+                
+                // Ad Tester (add "?adtest=testvalue" to url, inserts KV for targeting)
+                function getQueryVariable(variable)
+                {
+                var query = window.location.search.substring(1);
+                var vars = query.split("&");
+                for (var i=0;i<vars.length;i++) {
+                        var pair = vars[i].split("=");
+                        if(pair[0] == variable){return pair[1];}
+                }
+                return(false);
+                }
+                
+                // Prepare targeting variables
+                var kvAdTest =  getQueryVariable("adtest");
+                var adNet = "7000"
+                var adSite = window.site
+                var adSect = window.sect
+                var kvURL = articleURL
+                var adUnitPath = adNet + '/' + adSite + '/' + adSect 
+                
+                var kvArray = adSect.split( '/' );
+                var kvSec1 = kvArray[0];
+                var kvSec2 = kvArray[1];
+                var kvSec3 = kvArray[2];
+                var kvSec4 = kvArray[3];
+
+                // Declare ad slots and map ad sizes to breakpoints
+                //var mapBanner = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([768, 0], [728, 90]).build();
+                var mapBanner = googletag.sizeMapping().addSize([0, 0], [[320, 50],[320, 250]]).addSize([768, 0], [[728, 90],[728, 190]]).addSize([980, 0], [[728, 90],[970, 250]]).build();
+                
+                var mapMedRec = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([768, 0], [300, 250]).build();
+
+                var mapBillboard = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([768, 0], [728, 90]).addSize([996, 0], [970, 250]).build();	
+
+                
+                var banner1 = googletag.defineSlot(adUnitPath, [728, 90],'dfp-ad-banner-1').defineSizeMapping(mapBanner).addService(googletag.pubads()).setTargeting('pos', '1');                // Set targeting key-values for all ad slots and enable services
+                if(kvArray.length >= 4){
+                    googletag.pubads().setTargeting("adtest",[kvAdTest]).setTargeting("sec1",[kvSec1]).setTargeting("sec2",[kvSec2]).setTargeting("sec3",[kvSec3]).setTargeting("sec4",[kvSec4]).setTargeting("url",[kvURL]);
+                }
+
+                googletag.pubads().setTargeting("env","production");
+                googletag.pubads().enableAsyncRendering();
+                googletag.pubads().collapseEmptyDivs(true);
+                googletag.pubads().setCentering(true);
+                googletag.pubads().enableSingleRequest();   	
+                googletag.enableServices();
+
+            });
+        </script>
+        <!-- //DFP GPT header script -->
+                <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer', 'GTM-PN852QR' );</script>
+        <!-- End Google Tag Manager -->
+        
+	<!-- This site is optimized with the Yoast SEO plugin v25.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Laver Cup | Official website of The Laver Cup</title>
+	<meta name="description" content="Laver Cup An annual team competition unlike any other in Men&#039;s Tennis in SEPT 19 - 21, 2025 | SAN FRANCISCO" />
+	<link rel="canonical" href="https://lavercup.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Laver Cup | Official website of The Laver Cup" />
+	<meta property="og:description" content="Laver Cup An annual team competition unlike any other in Men&#039;s Tennis in SEPT 19 - 21, 2025 | SAN FRANCISCO" />
+	<meta property="og:url" content="https://lavercup.com/" />
+	<meta property="og:site_name" content="Laver Cup" />
+	<meta property="article:publisher" content="https://www.facebook.com/LaverCup" />
+	<meta property="article:modified_time" content="2025-09-22T03:54:24+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@LaverCup" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://lavercup.com/","url":"https://lavercup.com/","name":"Laver Cup | Official website of The Laver Cup","isPartOf":{"@id":"https://lavercup.com/#website"},"about":{"@id":"https://lavercup.com/#organization"},"datePublished":"2024-09-18T08:57:42+00:00","dateModified":"2025-09-22T03:54:24+00:00","description":"Laver Cup An annual team competition unlike any other in Men's Tennis in SEPT 19 - 21, 2025 | SAN FRANCISCO","breadcrumb":{"@id":"https://lavercup.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://lavercup.com/"]}]},{"@type":"BreadcrumbList","@id":"https://lavercup.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://lavercup.com/#website","url":"https://lavercup.com/","name":"Laver Cup","description":"SEPT 19 - 21, 2025 | SAN FRANCISCO","publisher":{"@id":"https://lavercup.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lavercup.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://lavercup.com/#organization","name":"Laver Cup","url":"https://lavercup.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://lavercup.com/#/schema/logo/image/","url":"https://lavercup.com/wp-content/uploads/2021/05/LaverCupEmailSignatureLogo.png","contentUrl":"https://lavercup.com/wp-content/uploads/2021/05/LaverCupEmailSignatureLogo.png","width":146,"height":70,"caption":"Laver Cup"},"image":{"@id":"https://lavercup.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/LaverCup","https://x.com/LaverCup","https://www.instagram.com/lavercup","https://www.youtube.com/channel/UC759rBUss3b39R0j6u_ECPA","https://www.tiktok.com/@lavercup","https://www.threads.net/@lavercup"]}]}</script>
+	<meta name="google-site-verification" content="TXkCGSt5y7cPosyz5QEZ2wFX2LIIIWJW2dCZ1KeYl1Y" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpo_min-header-0-css' href='https://lavercup.com/wp-content/cache/wpo-minify/1758430735/assets/wpo-minify-header-3e660c69.min.css' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://lavercup.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://lavercup.com/wp-json/wp/v2/pages/14946" /><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://lavercup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flavercup.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://lavercup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flavercup.com%2F&#038;format=xml" />
+
+            <script type="text/javascript">
+                /* <![CDATA[ */
+                var ajax_endpoints = { "get_posts" : "https://lavercup.com/wp-json/spark_digital/v1/get_posts","get_player_by_pro_ids" : "https://lavercup.com/wp-json/spark_digital/v1/get_player_by_pro_ids","post_matches" : "https://lavercup.com/wp-json/spark_digital/v1/post_matches","post_matches_scorecards" : "https://lavercup.com/wp-json/spark_digital/v1/post_matches_scorecards","post_contact_form" : "https://lavercup.com/wp-json/spark_digital/v1/post_contact_form", };
+                var assets_dir = 'https://lavercup.com/wp-content/themes/lavercup_spark/assets/';
+                
+                var event_uom = 'imperial';
+                var ably_key = '6uWcqQ.xvIRjA:hgbVHSCeX-8Gy1iw'; 
+                
+                
+                var event_players = {"ATPB0CD":{"wp_id":17517,"pro_id":"ATPB0CD","team":"world","link":"https:\/\/lavercup.com\/player\/jenson-brooksby","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/09\/Brooksby_2025_Player_Profiles_Template.png' alt='Brooksby_2025_Player_Profiles_Template'  class='player-img player-img-17517  orientation-portrait'>","f_name":"Jenson","l_name":"Brooksby","s_name":"J.Brooksby"},"ATPM0FH":{"wp_id":17365,"pro_id":"ATPM0FH","team":"europe","link":"https:\/\/lavercup.com\/player\/tomas-machac","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/09\/Machac-2025_Player_Profiles_Template.png' alt='Machac-2025_Player_Profiles_Template'  class='player-img player-img-17365  orientation-portrait'>","f_name":"Tom\u00e1\u0161","l_name":"Mach\u00e1\u010d","s_name":"T.Mach\u00e1\u010d"},"ATPM0QI":{"wp_id":17316,"pro_id":"ATPM0QI","team":"world","link":"https:\/\/lavercup.com\/player\/alex-michelsen","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img player-img-17316 left orientation-portrait'>","f_name":"Alex","l_name":"Michelsen","s_name":"A.Michelsen"},"ATPM0NI":{"wp_id":17093,"pro_id":"ATPM0NI","team":"europe","link":"https:\/\/lavercup.com\/player\/jakub-mensik","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Mensic-2025_Player_Profiles_Template.png' alt='Mensic-2025_Player_Profiles_Template'  class='player-img player-img-17093  orientation-portrait'>","f_name":"Jakub","l_name":"Mensik","s_name":"J.Mensik"},"ATPF0FV":{"wp_id":17109,"pro_id":"ATPF0FV","team":"world","link":"https:\/\/lavercup.com\/player\/joao-fonseca","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Fonseca-2025_Player_Profiles_Template.png' alt='Fonseca-2025_Player_Profiles_Template'  class='player-img player-img-17109 left orientation-portrait'>","f_name":"Jo\u00e3o","l_name":"Fonseca","s_name":"J.Fonseca"},"ATPC0E9":{"wp_id":14563,"pro_id":"ATPC0E9","team":"europe","link":"https:\/\/lavercup.com\/player\/flavio-cobolli","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Coboli-2025_Player_Profiles_Template.png' alt='Coboli-2025_Player_Profiles_Template'  class='player-img player-img-14563  orientation-portrait'>","f_name":"Flavio","l_name":"Cobolli","s_name":"F.Cobolli"},"ATPA0E2":{"wp_id":14531,"pro_id":"ATPA0E2","team":"europe","link":"https:\/\/lavercup.com\/player\/carlos-alcaraz","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img player-img-14531  orientation-portrait'>","f_name":"Carlos","l_name":"Alcaraz","s_name":"C.Alcaraz"},"ATPC0AU":{"wp_id":12088,"pro_id":"ATPC0AU","team":"world","link":"https:\/\/lavercup.com\/player\/francisco-cerundolo","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Cerundolo-2025_Player_Profiles_Template.png' alt='Cerundolo-2025_Player_Profiles_Template'  class='player-img player-img-12088 left orientation-portrait'>","f_name":"Francisco","l_name":"Cerundolo","s_name":"F.Cerundolo"},"ATPR0DG":{"wp_id":12084,"pro_id":"ATPR0DG","team":"europe","link":"https:\/\/lavercup.com\/player\/holger-rune","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2023\/05\/Rune-2025_Player_Profiles_Template2.png' alt='Rune-2025_Player_Profiles_Template2'  class='player-img player-img-12084  orientation-portrait'>","f_name":"Holger","l_name":"Rune","s_name":"H.Rune"},"ATPDH58":{"wp_id":9833,"pro_id":"ATPDH58","team":"world","link":"https:\/\/lavercup.com\/player\/alex-de-minaur","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2024\/08\/2024-DeMinaur-Profile.png' alt='2024-DeMinaur-Profile'  class='player-img player-img-9833  orientation-portrait'>","f_name":"Alex","l_name":"de Minaur","s_name":"A.de Minaur"},"ATPO522":{"wp_id":8663,"pro_id":"ATPO522","team":"world","link":"https:\/\/lavercup.com\/player\/reilly-opelka","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2021\/08\/Opelka-2025_Player_Profiles_Template.png' alt='Opelka-2025_Player_Profiles_Template'  class='player-img player-img-8663 left orientation-portrait'>","f_name":"Reilly","l_name":"Opelka","s_name":"R.Opelka"},"ATPRH16":{"wp_id":8643,"pro_id":"ATPRH16","team":"europe","link":"https:\/\/lavercup.com\/player\/casper-ruud","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Ruud-2025_Player_Profiles_Template.png' alt='Ruud-2025_Player_Profiles_Template'  class='player-img player-img-8643  orientation-portrait'>","f_name":"Casper","l_name":"Ruud","s_name":"C.Ruud"},"ATPFB98":{"wp_id":6699,"pro_id":"ATPFB98","team":"world","link":"https:\/\/lavercup.com\/player\/taylor-fritz","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Fritz-2025_Player_Profiles_Template.png' alt='Fritz-2025_Player_Profiles_Template'  class='player-img player-img-6699 left orientation-portrait'>","f_name":"Taylor","l_name":"Fritz","s_name":"T.Fritz"},"ATPZ355":{"wp_id":2105,"pro_id":"ATPZ355","team":"europe","link":"https:\/\/lavercup.com\/player\/alexander-zverev","img_html":"<img loading='lazy' width='400' height='474' src='https:\/\/lavercup.com\/wp-content\/uploads\/2025\/08\/Zverev-2025_Player_Profiles_Template.png' alt='Zverev-2025_Player_Profiles_Template'  class='player-img player-img-2105  orientation-portrait'>","f_name":"Alexander","l_name":"Zverev","s_name":"A.Zverev"}};
+                
+                /* ]]> */
+            </script>    
+            
+  
+  </head>
+
+  <body event-mode="888" event-year="2025" event-start-date="1758240000" event-end-date="1758412800"  class="blog-1 theme-laver-cup-2022 home wp-singular page-template page-template-templates page-template-page-homepage page-template-templatespage-homepage-php page page-id-14946 wp-theme-lavercup_spark">
+
+            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN852QR"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+    <header class="header" role="banner">
+      <div class="container">
+        <div class="menu-wrapper hidden-lg-up">
+          <div class="hamburger-menu"></div>
+        </div>
+        <div class="logo">
+          <a href="https://lavercup.com" title="Laver Cup - SEPT 19 - 21, 2025 | SAN FRANCISCO">
+                        <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/logo.svg" alt="Logo">
+          </a>
+          <div class="date">SEPT 19 - 21, 2025 | SAN FRANCISCO</div>
+        </div>
+
+        <!-- Nav - Mobile -->
+        <div class="nav-overlay hidden-lg-up">
+        <ul id="menu-header-event-mode" class="menu"><li id="menu-item-17654" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17654"><a href="#">Scores &#038; Schedule</a>
+<ul class="sub-menu">
+	<li id="menu-item-17661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17661"><a href="/scores">Scores &#038; Results</a></li>
+	<li id="menu-item-17660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17660"><a href="https://lavercup.com/schedule">Schedule</a></li>
+</ul>
+</li>
+<li id="menu-item-17656" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17656"><a href="#">Teams</a>
+<ul class="sub-menu">
+	<li id="menu-item-17666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17666"><a href="https://lavercup.com/team-europe">Team Europe</a></li>
+	<li id="menu-item-17667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17667"><a href="https://lavercup.com/team-world">Team World</a></li>
+	<li id="menu-item-17687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17687"><a href="https://lavercup.com/captains-and-vice-captains">Captains &#038; Vice Captains</a></li>
+</ul>
+</li>
+<li id="menu-item-17981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17981"><a href="https://lavercup.com/news-media">News &#038; Video</a>
+<ul class="sub-menu">
+	<li id="menu-item-17668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17668"><a href="/news-media#news">News</a></li>
+	<li id="menu-item-17669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17669"><a href="/news-media#photos">Photos</a></li>
+	<li id="menu-item-17670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17670"><a href="/news-media#videos">Videos</a></li>
+	<li id="menu-item-17672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17672"><a href="https://lavercup.com/insider">Laver Cup Insider</a></li>
+</ul>
+</li>
+<li id="menu-item-17658" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17658"><a href="#">Event Info</a>
+<ul class="sub-menu">
+	<li id="menu-item-17662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17662"><a href="https://lavercup.com/tickets">Tickets</a></li>
+	<li id="menu-item-17664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17664"><a href="https://lavercup.com/hospitality">Hospitality</a></li>
+	<li id="menu-item-17663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17663"><a href="https://lavercup.com/faqs">FAQs</a></li>
+	<li id="menu-item-17685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17685"><a href="https://lavercup.com/event-guide">Event Guide</a></li>
+	<li id="menu-item-17684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17684"><a href="https://lavercup.com/how-to-watch-the-laver-cup">How To Watch The Laver Cup</a></li>
+	<li id="menu-item-17976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17976"><a href="https://unrivaledchallenge.lavercup.com/">Unrivaled Challenege</a></li>
+	<li id="menu-item-17671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17671"><a href="https://lavercup.com/benchcam">Bench Cam</a></li>
+	<li id="menu-item-17977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17977"><a href="https://lavercup.com/fan-radio">Fan Radio</a></li>
+</ul>
+</li>
+<li id="menu-item-17659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17659"><a href="#">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-17979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17979"><a href="https://lavercup.com/about-the-laver-cup">About the Laver Cup</a></li>
+	<li id="menu-item-17686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17686"><a href="https://lavercup.com/rod-laver">Rod Laver</a></li>
+	<li id="menu-item-17688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17688"><a href="https://lavercup.com/history">History</a></li>
+	<li id="menu-item-17980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17980"><a href="https://lavercup.com/ballkids">Ballkids</a></li>
+	<li id="menu-item-17689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17689"><a href="https://lavercup.com/sponsors">Sponsors</a></li>
+</ul>
+</li>
+</ul>        </div>
+        <!-- /Nav - Mobile -->
+        <!-- Nav - Desktop -->
+        <div class="nav-cont hidden-lg-down">
+          <nav class="nav" role="navigation">
+          <ul id="menu-header-event-mode-1" class="top"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17654"><a href="#">Scores &#038; Schedule</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17661"><a href="/scores">Scores &#038; Results</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17660"><a href="https://lavercup.com/schedule">Schedule</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17656"><a href="#">Teams</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17666"><a href="https://lavercup.com/team-europe">Team Europe</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17667"><a href="https://lavercup.com/team-world">Team World</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17687"><a href="https://lavercup.com/captains-and-vice-captains">Captains &#038; Vice Captains</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17981"><a href="https://lavercup.com/news-media">News &#038; Video</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17668"><a href="/news-media#news">News</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17669"><a href="/news-media#photos">Photos</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17670"><a href="/news-media#videos">Videos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17672"><a href="https://lavercup.com/insider">Laver Cup Insider</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17658"><a href="#">Event Info</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17662"><a href="https://lavercup.com/tickets">Tickets</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17664"><a href="https://lavercup.com/hospitality">Hospitality</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17663"><a href="https://lavercup.com/faqs">FAQs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17685"><a href="https://lavercup.com/event-guide">Event Guide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17684"><a href="https://lavercup.com/how-to-watch-the-laver-cup">How To Watch The Laver Cup</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17976"><a href="https://unrivaledchallenge.lavercup.com/">Unrivaled Challenege</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17671"><a href="https://lavercup.com/benchcam">Bench Cam</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17977"><a href="https://lavercup.com/fan-radio">Fan Radio</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17659"><a href="#">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17979"><a href="https://lavercup.com/about-the-laver-cup">About the Laver Cup</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17686"><a href="https://lavercup.com/rod-laver">Rod Laver</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17688"><a href="https://lavercup.com/history">History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17980"><a href="https://lavercup.com/ballkids">Ballkids</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17689"><a href="https://lavercup.com/sponsors">Sponsors</a></li>
+</ul>
+</li>
+</ul>          </nav>
+        </div>
+        <!-- /Nav - Desktop -->
+      </div>
+    </header>
+
+      
+    
+<section id="1-1bfc6f1f" class="components-event-scoreboard" event-year='2025' >
+
+    <div class="live-score-stripe">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="live-score-stripe--inner">
+                <div class="europe">
+                    <div class="trophy"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-no-text.svg" alt="Team Europe logo"></div>
+                    <div class="title">Europe</div>
+                    <div class="score" event-scores="9"></div>
+                </div>
+                <div class="victory-icon">
+                    <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/victory.svg" alt="Versus icon">
+                    <small>13 points needed for victory</small>
+                </div>
+                <div class="world">
+                    <div class="trophy"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-no-text.svg" alt="Team World logo"></div>
+                    <div class="title">World</div>
+                    <div class="score" event-scores="15"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--live-score-stripe-->
+
+    <div class="live-points-stripe">
+        <div class="container">
+            <div class="live-points-stripe--inner">
+                <div class="point-block team-europe-win"><!--E0--></div><div class="point-block team-europe-win"><!--E1--></div><div class="point-block team-europe-win"><!--E2--></div><div class="point-block team-europe-win"><!--E3--></div><div class="point-block team-europe-win"><!--E4--></div><div class="point-block team-europe-win"><!--E5--></div><div class="point-block team-europe-win"><!--E6--></div><div class="point-block team-europe-win"><!--E7--></div><div class="point-block team-europe-win"><!--E8--></div><div class="point-block "><!--X0--></div><div class="point-block team-world-win"><!--W14--></div><div class="point-block team-world-win"><!--W13--></div><div class="point-block winner team-world-win"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy.png" alt="Trophy" /><!--W12--></div><div class="point-block team-world-win"><!--W11--></div><div class="point-block team-world-win"><!--W10--></div><div class="point-block team-world-win"><!--W9--></div><div class="point-block team-world-win"><!--W8--></div><div class="point-block team-world-win"><!--W7--></div><div class="point-block team-world-win"><!--W6--></div><div class="point-block team-world-win"><!--W5--></div><div class="point-block team-world-win"><!--W4--></div><div class="point-block team-world-win"><!--W3--></div><div class="point-block team-world-win"><!--W2--></div><div class="point-block team-world-win"><!--W1--></div><div class="point-block team-world-win"><!--W0--></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="home-event-view">
+
+
+            <div id='dfp-ad-banner-1' rel='home'>
+                <div class='container'>
+                    <div class='ad-leaderboard'>
+                        <script type='text/javascript'>
+                            googletag.cmd.push(function() { googletag.display('dfp-ad-banner-1'); });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            
+<section class="live-tournament-tabs">
+
+   <div class="container">
+
+        <div class="filter tabs" role="tablist">
+            <a id='tab-day-1' title='Day 1' class='tab' tabindex='1' aria-selected='false' aria-controls='tab-content-day-1' role='tab'>Day 1<time class='hidden-lg-down'>Friday September 19, 2025</time><time class='hidden-lg-up'>09/19/2025</time></a><a id='tab-day-2' title='Day 2' class='tab' tabindex='2' aria-selected='false' aria-controls='tab-content-day-2' role='tab'>Day 2<time class='hidden-lg-down'>Saturday September 20, 2025</time><time class='hidden-lg-up'>09/20/2025</time></a><a id='tab-day-3' title='Day 3' class='tab active' tabindex='3' aria-selected='true' aria-controls='tab-content-day-3' role='tab'>Day 3<time class='hidden-lg-down'>Sunday September 21, 2025</time><time class='hidden-lg-up'>09/21/2025</time></a>        </div>
+
+        
+    <div id='tab-content-day-1' aria-selected='false' role='tabpanel' tabindex='1' aria-labelledby='tab-content-day-1'  hidden>
+        <div id="363c654cddcaf37d93a27d88a8147af3" class="match-carousel"><div><div match-group-index='0'>
+
+<section id='2-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='1' match-id='MS101' match-status='completed' match-format='singles' match-set='-1' match-day='1' match-date='20250919' match-date-friendly='Fri, 19 Sep 2025 13:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-19T13:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPRH16">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'>Ruud</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPRH16">
+                        <a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Ruud-2025_Player_Profiles_Template.png' alt='Ruud-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPO522">
+                        <a player-id='ATPO522' href='https://lavercup.com/player/reilly-opelka' title='View "Reilly Opelka" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2021/08/Opelka-2025_Player_Profiles_Template.png' alt='Opelka-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPO522">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPO522' href='https://lavercup.com/player/reilly-opelka' title='View "Reilly Opelka" profile'>Opelka</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS101"  match-order="1" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='1' match-day-pts-per-match="1"  match-date="20250919" match-date-friendly="Fri, 19 Sep 2025 13:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-19T13:00:00-07:00" match-winner="europe">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 1<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    Europe won - 1pt                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPRH16">
+                                        <a player-id="ATPRH16" href="https://lavercup.com/player/casper-ruud" title="View 'Casper Ruud' profile" class="name">
+                            C.Ruud                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">7 <sup>7</sup></td>        </tr>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPO522">
+                                        <a player-id="ATPO522" href="https://lavercup.com/player/reilly-opelka" title="View 'Reilly Opelka' profile" class="name">
+                            R.Opelka                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value">4</td>
+                        <td class="value">6 <sup>4</sup></td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:27">01:27</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-1" title="Ruud v Opelka &#8211; San Francisco 2025 &#8211; Match 1" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='1'>
+
+<section id='3-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='2' match-id='MS102' match-status='completed' match-format='singles' match-set='-1' match-day='1' match-date='20250919' match-date-friendly='Fri, 19 Sep 2025 13:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-19T13:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPM0NI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'>Mensik</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPM0NI">
+                        <a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Mensic-2025_Player_Profiles_Template.png' alt='Mensic-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPM0QI">
+                        <a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPM0QI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'>Michelsen</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS102"  match-order="2" match-status="completed" match-format="singles" match-sets="3"  match-year="2025" match-day='1' match-day-pts-per-match="1"  match-date="20250919" match-date-friendly="Fri, 19 Sep 2025 13:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-19T13:00:00-07:00" match-winner="europe">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 2<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    Europe won - 1pt                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPM0NI">
+                                        <a player-id="ATPM0NI" href="https://lavercup.com/player/jakub-mensik" title="View 'Jakub Mensik' profile" class="name">
+                            J.Mensik                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value">6 <sup>3</sup></td>    
+                            <td class="value" set_won="1">10</td>
+                                </tr>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPM0QI">
+                                        <a player-id="ATPM0QI" href="https://lavercup.com/player/alex-michelsen" title="View 'Alex Michelsen' profile" class="name">
+                            A.Michelsen                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value">1</td>
+                        <td class="value" set_won="1">7 <sup>7</sup></td>    
+                            <td class="value">8</td>
+                                </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:35">01:35</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-2" title="Mensik v Michelsen &#8211; San Francisco 2025 &#8211; Match 2" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='2'>
+
+<section id='4-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='3' match-id='MS103' match-status='completed' match-format='singles' match-set='-1' match-day='1' match-date='20250919' match-date-friendly='Fri, 19 Sep 2025 19:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-19T19:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPC0E9">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPC0E9' href='https://lavercup.com/player/flavio-cobolli' title='View "Flavio Cobolli" profile'>Cobolli</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPC0E9">
+                        <a player-id='ATPC0E9' href='https://lavercup.com/player/flavio-cobolli' title='View "Flavio Cobolli" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Coboli-2025_Player_Profiles_Template.png' alt='Coboli-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPF0FV">
+                        <a player-id='ATPF0FV' href='https://lavercup.com/player/joao-fonseca' title='View "João Fonseca" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fonseca-2025_Player_Profiles_Template.png' alt='Fonseca-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPF0FV">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPF0FV' href='https://lavercup.com/player/joao-fonseca' title='View "João Fonseca" profile'>Fonseca</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS103"  match-order="3" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='1' match-day-pts-per-match="1"  match-date="20250919" match-date-friendly="Fri, 19 Sep 2025 19:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-19T19:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 3<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 1pt                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPC0E9">
+                                        <a player-id="ATPC0E9" href="https://lavercup.com/player/flavio-cobolli" title="View 'Flavio Cobolli' profile" class="name">
+                            F.Cobolli                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">4</td>
+                        <td class="value">3</td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPF0FV">
+                                        <a player-id="ATPF0FV" href="https://lavercup.com/player/joao-fonseca" title="View 'João Fonseca' profile" class="name">
+                            J.Fonseca                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:26">01:26</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-3" title="Cobilli v Fonseca &#8211; San Francisco 2025 &#8211; Match 3" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='3'>
+
+<section id='5-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='4' match-id='MD101' match-status='completed' match-format='doubles' match-set='-1' match-day='1' match-date='20250919' match-date-friendly='Fri, 19 Sep 2025 19:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-19T19:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPA0E2,ATPM0NI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'>Alcaraz</a></h6> <h6><a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'>Mensik</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPA0E2,ATPM0NI">
+                        <a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a><a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Mensic-2025_Player_Profiles_Template.png' alt='Mensic-2025_Player_Profiles_Template'  class='player-img player-img-1  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPFB98,ATPM0QI">
+                        <a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img player-img-1  orientation-portrait'></a><a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fritz-2025_Player_Profiles_Template.png' alt='Fritz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPFB98,ATPM0QI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'>Michelsen</a></h6>  <h6><a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'>Fritz</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MD101"  match-order="4" match-status="completed" match-format="doubles" match-sets="2"  match-year="2025" match-day='1' match-day-pts-per-match="1"  match-date="20250919" match-date-friendly="Fri, 19 Sep 2025 19:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-19T19:00:00-07:00" match-winner="europe">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 4<br />
+                    <small>Doubles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    Europe won - 1pt                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPA0E2,ATPM0NI">
+                                        <a player-id="ATPA0E2" href="https://lavercup.com/player/carlos-alcaraz" title="View 'Carlos Alcaraz' profile" class="name">
+                            C.Alcaraz                        </a>
+                                                <a player-id="ATPM0NI" href="https://lavercup.com/player/jakub-mensik" title="View 'Jakub Mensik' profile" class="name">
+                            J.Mensik                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">7 <sup>9</sup></td>
+                        <td class="value" set_won="1">6</td>        </tr>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPFB98,ATPM0QI">
+                                        <a player-id="ATPFB98" href="https://lavercup.com/player/taylor-fritz" title="View 'Taylor Fritz' profile" class="name">
+                            T.Fritz                        </a>
+                                            <a player-id="ATPM0QI" href="https://lavercup.com/player/alex-michelsen" title="View 'Alex Michelsen' profile" class="name">
+                            A.Michelsen                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value">6 <sup>7</sup></td>
+                        <td class="value">4</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:43">01:43</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-4" title="Alcaraz/Mensik  v Fritz/Michelsen &#8211; San Francisco 2025 &#8211; Match 4" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div></div>
+    </div>
+    <div id='tab-content-day-2' aria-selected='false' role='tabpanel' tabindex='2' aria-labelledby='tab-content-day-2'  hidden>
+        <div id="2a6065c8d453054ae3f944bb65c987ed" class="match-carousel"><div><div match-group-index='0'>
+
+<section id='7-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='1' match-id='MS201' match-status='completed' match-format='singles' match-set='-1' match-day='2' match-date='20250920' match-date-friendly='Sat, 20 Sep 2025 13:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-20T13:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPZ355">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPZ355' href='https://lavercup.com/player/alexander-zverev' title='View "Alexander Zverev" profile'>Zverev</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPZ355">
+                        <a player-id='ATPZ355' href='https://lavercup.com/player/alexander-zverev' title='View "Alexander Zverev" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Zverev-2025_Player_Profiles_Template.png' alt='Zverev-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPDH58">
+                        <a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2024/08/2024-DeMinaur-Profile.png' alt='2024-DeMinaur-Profile'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPDH58">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'>de Minaur</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS201"  match-order="1" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='2' match-day-pts-per-match="2"  match-date="20250920" match-date-friendly="Sat, 20 Sep 2025 13:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-20T13:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 5<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 2pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPZ355">
+                                        <a player-id="ATPZ355" href="https://lavercup.com/player/alexander-zverev" title="View 'Alexander Zverev' profile" class="name">
+                            A.Zverev                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">1</td>
+                        <td class="value">4</td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPDH58">
+                                        <a player-id="ATPDH58" href="https://lavercup.com/player/alex-de-minaur" title="View 'Alex de Minaur' profile" class="name">
+                            A.de Minaur                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:29">01:29</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-5" title="Zverev V De Minaur &#8211; San Francisco 2025 &#8211; Match 5" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='1'>
+
+<section id='8-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='2' match-id='MS202' match-status='completed' match-format='singles' match-set='-1' match-day='2' match-date='20250920' match-date-friendly='Sat, 20 Sep 2025 13:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-20T13:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPR0DG">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPR0DG' href='https://lavercup.com/player/holger-rune' title='View "Holger Rune" profile'>Rune</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPR0DG">
+                        <a player-id='ATPR0DG' href='https://lavercup.com/player/holger-rune' title='View "Holger Rune" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2023/05/Rune-2025_Player_Profiles_Template2.png' alt='Rune-2025_Player_Profiles_Template2'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPC0AU">
+                        <a player-id='ATPC0AU' href='https://lavercup.com/player/francisco-cerundolo' title='View "Francisco Cerundolo" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Cerundolo-2025_Player_Profiles_Template.png' alt='Cerundolo-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPC0AU">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPC0AU' href='https://lavercup.com/player/francisco-cerundolo' title='View "Francisco Cerundolo" profile'>Cerundolo</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS202"  match-order="2" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='2' match-day-pts-per-match="2"  match-date="20250920" match-date-friendly="Sat, 20 Sep 2025 13:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-20T13:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 6<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 2pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPR0DG">
+                                        <a player-id="ATPR0DG" href="https://lavercup.com/player/holger-rune" title="View 'Holger Rune' profile" class="name">
+                            H.Rune                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">3</td>
+                        <td class="value">6 <sup>5</sup></td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPC0AU">
+                                        <a player-id="ATPC0AU" href="https://lavercup.com/player/francisco-cerundolo" title="View 'Francisco Cerundolo' profile" class="name">
+                            F.Cerundolo                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">7 <sup>7</sup></td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="02:00">02:00</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-6" title="Rune V Cerundolo &#8211; San Francisco 2025 &#8211; Match 6" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='2'>
+
+<section id='9-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='3' match-id='MS203' match-status='completed' match-format='singles' match-set='-1' match-day='2' match-date='20250920' match-date-friendly='Sat, 20 Sep 2025 19:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-20T19:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPA0E2">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'>Alcaraz</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPA0E2">
+                        <a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPFB98">
+                        <a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fritz-2025_Player_Profiles_Template.png' alt='Fritz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPFB98">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'>Fritz</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS203"  match-order="3" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='2' match-day-pts-per-match="2"  match-date="20250920" match-date-friendly="Sat, 20 Sep 2025 19:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-20T19:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 7<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 2pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPA0E2">
+                                        <a player-id="ATPA0E2" href="https://lavercup.com/player/carlos-alcaraz" title="View 'Carlos Alcaraz' profile" class="name">
+                            C.Alcaraz                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">3</td>
+                        <td class="value">2</td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPFB98">
+                                        <a player-id="ATPFB98" href="https://lavercup.com/player/taylor-fritz" title="View 'Taylor Fritz' profile" class="name">
+                            T.Fritz                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:11">01:11</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-7" title="Alcaraz V Fritz &#8211; San Francisco 2025 &#8211; Match 7" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='3'>
+
+<section id='10-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='4' match-id='MD201' match-status='completed' match-format='doubles' match-set='-1' match-day='2' match-date='20250920' match-date-friendly='Sat, 20 Sep 2025 19:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-20T19:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPRH16,ATPR0DG">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'>Ruud</a></h6> <h6><a player-id='ATPR0DG' href='https://lavercup.com/player/holger-rune' title='View "Holger Rune" profile'>Rune</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPRH16,ATPR0DG">
+                        <a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Ruud-2025_Player_Profiles_Template.png' alt='Ruud-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a><a player-id='ATPR0DG' href='https://lavercup.com/player/holger-rune' title='View "Holger Rune" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2023/05/Rune-2025_Player_Profiles_Template2.png' alt='Rune-2025_Player_Profiles_Template2'  class='player-img player-img-1  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPDH58,ATPM0QI">
+                        <a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img player-img-1  orientation-portrait'></a><a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2024/08/2024-DeMinaur-Profile.png' alt='2024-DeMinaur-Profile'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPDH58,ATPM0QI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'>Michelsen</a></h6>  <h6><a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'>de Minaur</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MD201"  match-order="4" match-status="completed" match-format="doubles" match-sets="2"  match-year="2025" match-day='2' match-day-pts-per-match="2"  match-date="20250920" match-date-friendly="Sat, 20 Sep 2025 19:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-20T19:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 8<br />
+                    <small>Doubles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 2pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPRH16,ATPR0DG">
+                                        <a player-id="ATPRH16" href="https://lavercup.com/player/casper-ruud" title="View 'Casper Ruud' profile" class="name">
+                            C.Ruud                        </a>
+                                                <a player-id="ATPR0DG" href="https://lavercup.com/player/holger-rune" title="View 'Holger Rune' profile" class="name">
+                            H.Rune                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">3</td>
+                        <td class="value">4</td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPDH58,ATPM0QI">
+                                        <a player-id="ATPDH58" href="https://lavercup.com/player/alex-de-minaur" title="View 'Alex de Minaur' profile" class="name">
+                            A.de Minaur                        </a>
+                                            <a player-id="ATPM0QI" href="https://lavercup.com/player/alex-michelsen" title="View 'Alex Michelsen' profile" class="name">
+                            A.Michelsen                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:22">01:22</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-8" title="Ruud/Rune V De Minaur/Michelsen &#8211; San Francisco 2025 &#8211; Match 8" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div></div>
+    </div>
+    <div id='tab-content-day-3' aria-selected='true' role='tabpanel' tabindex='3' aria-labelledby='tab-content-day-3' >
+        <div id="67ddf1b162b1f25a37826df4100bb233" class="match-carousel"><div><div match-group-index='0'>
+
+<section id='12-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='1' match-id='MD301' match-status='completed' match-format='doubles' match-set='-1' match-day='3' match-date='20250921' match-date-friendly='Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-21T12:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPA0E2,ATPRH16">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'>Alcaraz</a></h6> <h6><a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'>Ruud</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPA0E2,ATPRH16">
+                        <a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a><a player-id='ATPRH16' href='https://lavercup.com/player/casper-ruud' title='View "Casper Ruud" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Ruud-2025_Player_Profiles_Template.png' alt='Ruud-2025_Player_Profiles_Template'  class='player-img player-img-1  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPM0QI,ATPO522">
+                        <a player-id='ATPO522' href='https://lavercup.com/player/reilly-opelka' title='View "Reilly Opelka" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2021/08/Opelka-2025_Player_Profiles_Template.png' alt='Opelka-2025_Player_Profiles_Template'  class='player-img player-img-1  orientation-portrait'></a><a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPM0QI,ATPO522">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPO522' href='https://lavercup.com/player/reilly-opelka' title='View "Reilly Opelka" profile'>Opelka</a></h6>  <h6><a player-id='ATPM0QI' href='https://lavercup.com/player/alex-michelsen' title='View "Alex Michelsen" profile'>Michelsen</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MD301"  match-order="1" match-status="completed" match-format="doubles" match-sets="2"  match-year="2025" match-day='3' match-day-pts-per-match="3"  match-date="20250921" match-date-friendly="Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-21T12:00:00-07:00" match-winner="europe">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 9<br />
+                    <small>Doubles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    Europe won - 3pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPA0E2,ATPRH16">
+                                        <a player-id="ATPA0E2" href="https://lavercup.com/player/carlos-alcaraz" title="View 'Carlos Alcaraz' profile" class="name">
+                            C.Alcaraz                        </a>
+                                                <a player-id="ATPRH16" href="https://lavercup.com/player/casper-ruud" title="View 'Casper Ruud' profile" class="name">
+                            C.Ruud                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">7 <sup>7</sup></td>
+                        <td class="value" set_won="1">6</td>        </tr>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPM0QI,ATPO522">
+                                        <a player-id="ATPM0QI" href="https://lavercup.com/player/alex-michelsen" title="View 'Alex Michelsen' profile" class="name">
+                            A.Michelsen                        </a>
+                                            <a player-id="ATPO522" href="https://lavercup.com/player/reilly-opelka" title="View 'Reilly Opelka' profile" class="name">
+                            R.Opelka                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value">6 <sup>4</sup></td>
+                        <td class="value">1</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:35">01:35</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-9" title="Alcaraz/Ruud V Michelsen/Opelka &#8211; San Francisco 2025 &#8211; Match 9" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='1'>
+
+<section id='13-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='2' match-id='MS301' match-status='completed' match-format='singles' match-set='-1' match-day='3' match-date='20250921' match-date-friendly='Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-21T12:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPM0NI">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'>Mensik</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPM0NI">
+                        <a player-id='ATPM0NI' href='https://lavercup.com/player/jakub-mensik' title='View "Jakub Mensik" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Mensic-2025_Player_Profiles_Template.png' alt='Mensic-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPDH58">
+                        <a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2024/08/2024-DeMinaur-Profile.png' alt='2024-DeMinaur-Profile'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPDH58">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPDH58' href='https://lavercup.com/player/alex-de-minaur' title='View "Alex de Minaur" profile'>de Minaur</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS301"  match-order="2" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='3' match-day-pts-per-match="3"  match-date="20250921" match-date-friendly="Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-21T12:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 10<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 3pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPM0NI">
+                                        <a player-id="ATPM0NI" href="https://lavercup.com/player/jakub-mensik" title="View 'Jakub Mensik' profile" class="name">
+                            J.Mensik                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">3</td>
+                        <td class="value">4</td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPDH58">
+                                        <a player-id="ATPDH58" href="https://lavercup.com/player/alex-de-minaur" title="View 'Alex de Minaur' profile" class="name">
+                            A.de Minaur                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:36">01:36</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-10" title="Mensik V De Minaur &#8211; San Francisco 2025 &#8211; Match 10" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='2'>
+
+<section id='14-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='3' match-id='MS302' match-status='completed' match-format='singles' match-set='-1' match-day='3' match-date='20250921' match-date-friendly='Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-21T12:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPA0E2">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'>Alcaraz</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPA0E2">
+                        <a player-id='ATPA0E2' href='https://lavercup.com/player/carlos-alcaraz' title='View "Carlos Alcaraz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPC0AU">
+                        <a player-id='ATPC0AU' href='https://lavercup.com/player/francisco-cerundolo' title='View "Francisco Cerundolo" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Cerundolo-2025_Player_Profiles_Template.png' alt='Cerundolo-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPC0AU">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPC0AU' href='https://lavercup.com/player/francisco-cerundolo' title='View "Francisco Cerundolo" profile'>Cerundolo</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS302"  match-order="3" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='3' match-day-pts-per-match="3"  match-date="20250921" match-date-friendly="Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-21T12:00:00-07:00" match-winner="europe">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 11<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    Europe won - 3pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPA0E2">
+                                        <a player-id="ATPA0E2" href="https://lavercup.com/player/carlos-alcaraz" title="View 'Carlos Alcaraz' profile" class="name">
+                            C.Alcaraz                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">6</td>        </tr>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPC0AU">
+                                        <a player-id="ATPC0AU" href="https://lavercup.com/player/francisco-cerundolo" title="View 'Francisco Cerundolo' profile" class="name">
+                            F.Cerundolo                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value">2</td>
+                        <td class="value">1</td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:12">01:12</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-11" title="Alcaraz V Cerundolo &#8211; San Francisco 2025 &#8211; Match 11" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div><div><div match-group-index='3'>
+
+<section id='15-1bfc6f1f' class='components-match-scorecard-streamlined live-scoreboard' match-order='4' match-id='MS303' match-status='completed' match-format='singles' match-set='-1' match-day='3' match-date='20250921' match-date-friendly='Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)' match-date-gmt='2025-09-21T12:00:00-07:00' match-year='2025'>
+    
+    <div class='container'>
+
+        <div class='scorecard-streamlined-inner'>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+
+                    <div class='name-verticle player-europe' player-ids="ATPZ355">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-europe.svg' alt='Team Europe logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPZ355' href='https://lavercup.com/player/alexander-zverev' title='View "Alexander Zverev" profile'>Zverev</a></h6>
+                        </div>
+                    </div>
+
+                    <div class='player player-europe' player-ids="ATPZ355">
+                        <a player-id='ATPZ355' href='https://lavercup.com/player/alexander-zverev' title='View "Alexander Zverev" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Zverev-2025_Player_Profiles_Template.png' alt='Zverev-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                
+
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+                
+                
+                
+                    <div class='player player-world' player-ids="ATPFB98">
+                        <a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'><img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fritz-2025_Player_Profiles_Template.png' alt='Fritz-2025_Player_Profiles_Template'  class='player-img player-img-0  orientation-portrait'></a>                    </div>
+
+                    <div class='name-verticle player-world' player-ids="ATPFB98">
+                        <img loading='lazy' src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/trophy-world.svg' alt='Team World logo' class='cup' />
+                        <div class='names'>
+                            <h6><a player-id='ATPFB98' href='https://lavercup.com/player/taylor-fritz' title='View "Taylor Fritz" profile'>Fritz</a></h6>
+                        </div>
+                    </div>
+            </div>
+
+            <div class='scorecard-streamlined-col'>
+
+                
+
+
+
+<table class="components-match-scoreboard" match-id="MS303"  match-order="4" match-status="completed" match-format="singles" match-sets="2"  match-year="2025" match-day='3' match-day-pts-per-match="3"  match-date="20250921" match-date-friendly="Sun, 21 Sep 2025 12:00:00 PDT-0700 (US/Pacific)" match-date-gmt="2025-09-21T12:00:00-07:00" match-winner="world">
+    <thead >
+        <tr>
+            <td colspan="6">
+                <p>Match 12<br />
+                    <small>Singles</small>
+                </p>
+                <button class="go-previous hidden" aria-label="button"></button>
+            </td>
+            <td colspan="5">
+                <span class="skew-shape"></span>
+                                    <small class="match-points">
+                    World won - 3pts                    </small>
+                                <button class="go-next hidden" aria-label="button"></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr server="" winner="0">
+            <td><a href="#" title="View Team Europe"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe-blue.svg" alt="Team Europe logo" class="cup" /></a></td>
+
+            
+            <td class="name team-europe" colspan="6" player-ids="ATPZ355">
+                                        <a player-id="ATPZ355" href="https://lavercup.com/player/alexander-zverev" title="View 'Alexander Zverev' profile" class="name">
+                            A.Zverev                        </a>
+                                    </td>
+            <td class="score" hidden></td>
+                        <td class="value">3</td>
+                        <td class="value">6 <sup>4</sup></td>        </tr>
+        <tr server="" winner="1">
+            <td><a href="#" title="View Team World"><img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world-red.svg" alt="Team World logo" class="cup" /></td>
+                        
+            <td class="name team-world" colspan="6" player-ids="ATPFB98">
+                                        <a player-id="ATPFB98" href="https://lavercup.com/player/taylor-fritz" title="View 'Taylor Fritz' profile" class="name">
+                            T.Fritz                        </a>
+                                </td>
+            <td class="score" hidden></td>
+                        <td class="value" set_won="1">6</td>
+                        <td class="value" set_won="1">7 <sup>7</sup></td>        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr class="time">
+
+                        <td colspan="6">
+
+                <span class="time-type ">
+                    
+                    <time datetime="01:44">01:44</time>
+                    
+                </span>
+
+            </td>
+            
+            <td colspan="5">
+                                <a href="https://lavercup.com/match/san-francisco-2025-match-12" title="Zverev V Fritz &#8211; San Francisco 2025 &#8211; Match 12" class="alignright ">View Match Summary</a>
+                            </td>
+
+            
+
+        </tr>
+    </tfoot>
+</table>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class='bg bg-europe'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-europe.svg' alt='pattern'>
+        </div>
+    </div>
+
+    <div class='bg bg-world'>
+        <div class='pattern'>
+            <img src='https://lavercup.com/wp-content/themes/lavercup_spark/assets/img/captains/pattern-captain-world.svg' alt='pattern'>
+        </div>
+    </div>
+
+</section>
+
+
+
+</div></div></div>
+    </div>
+        
+    <div class="cont-graphics components-background-decorative-shapes" >
+    <div class="graphics g-left">
+        <svg id="svg-inline-11a9629678637b90e0694590ddaeb4dc"  class="d-inline-block" fill="none" height="788" viewBox="0 0 332 788" width="332" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a"><stop offset="0" stop-color="#fff"/><stop offset=".1033" stop-color="#efebe4"/><stop offset=".3272" stop-color="#cec4af"/><stop offset=".5366" stop-color="#b5a585"/><stop offset=".7249" stop-color="#a38f67"/><stop offset=".8857" stop-color="#988154"/><stop offset="1" stop-color="#947c4e"/></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="125.742" x2="226.455" xlink:href="#a" y1="409.236" y2="409.236"/><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="71.7203" x2="226.143" y1="195.033" y2="195.033"><stop offset="0" stop-color="#fff"/><stop offset=".0156556" stop-color="#f8f7f4"/><stop offset=".0788562" stop-color="#e1dacd"/><stop offset=".1486" stop-color="#ccc1ab"/><stop offset=".2245" stop-color="#baab8e"/><stop offset=".3085" stop-color="#ac9a76"/><stop offset=".404" stop-color="#a18d64"/><stop offset=".5179" stop-color="#998357"/><stop offset=".6684" stop-color="#957e50"/><stop offset="1" stop-color="#947c4e"/></linearGradient><linearGradient id="d" gradientUnits="userSpaceOnUse" x1=".464772" x2="160.265" xlink:href="#a" y1="321.956" y2="321.956"/><g opacity=".5"><path d="m180.853 696.961h-36.398l169.882-425.119 17.554 46.742z" fill="#9a8555" opacity=".5"/><path d="m108.415 787.096-18.629-43.903 188.511-471.351h36.04z" fill="#090a0d" opacity=".5"/><path d="m193.249 484.365h-36.327l122.88-305.861h35.825z" fill="#090a0d" opacity=".5"/><path d="m156.922 484.365h-36.255l146.309-364.47h36.327z" fill="#9a8555" opacity=".5"/><path d="m191.386 308.319h-36.112l66.42-166.073h36.326z" fill="#090a0d" opacity=".5"/><path d="m155.274 308.318h-36.255l40.841-102.075h36.255z" fill="#393b41" opacity=".5"/><path d="m126.829 535.403h-1.075l99.594-252.348h1.075z" fill="url(#b)" opacity=".5"/><path d="m72.4467 389.716h-.7165l153.6888-389.370053h.717z" fill="url(#c)" opacity=".5"/><path d="m.86837 523.972h-.429893l159.492523-404.005h.359z" fill="url(#d)" opacity=".5"/></g></svg>    </div>
+    <div class="graphics g-right">
+        <svg id="svg-inline-e95da98f7f48464bae1daf63ca3f2fdc"  class="d-inline-block" fill="none" height="787" viewBox="0 0 382 787" width="382" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="182.666" x2="134.834" y1="193.698" y2="309.073"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#b2b5b7"/></linearGradient><linearGradient id="b"><stop offset="0" stop-color="#fff"/><stop offset=".1033" stop-color="#efebe4"/><stop offset=".3272" stop-color="#cec4af"/><stop offset=".5366" stop-color="#b5a585"/><stop offset=".7249" stop-color="#a38f67"/><stop offset=".8857" stop-color="#988154"/><stop offset="1" stop-color="#947c4e"/></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="125.424" x2="226.137" xlink:href="#b" y1="408.978" y2="408.978"/><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="71.4024" x2="225.825" y1="194.775" y2="194.775"><stop offset="0" stop-color="#fff"/><stop offset=".0156556" stop-color="#f8f7f4"/><stop offset=".0788562" stop-color="#e1dacd"/><stop offset=".1486" stop-color="#ccc1ab"/><stop offset=".2245" stop-color="#baab8e"/><stop offset=".3085" stop-color="#ac9a76"/><stop offset=".404" stop-color="#a18d64"/><stop offset=".5179" stop-color="#998357"/><stop offset=".6684" stop-color="#957e50"/><stop offset="1" stop-color="#947c4e"/></linearGradient><linearGradient id="e" gradientUnits="userSpaceOnUse" x1=".146922" x2="159.947" xlink:href="#b" y1="321.698" y2="321.698"/><g opacity=".5"><path d="m321.019 525.986h-36.255l60.616-151.292h36.183z" fill="#393b41" opacity=".5"/><path d="m180.513 696.718h-36.398l169.954-425.119 17.483 46.742z" fill="#9a8555" opacity=".5"/><path d="m108.075 786.853-18.629-43.976 188.511-471.278h36.112z" fill="#090a0d" opacity=".5"/><path d="m192.98 484.122h-36.398l122.88-305.861h35.896z" fill="#9a8555" opacity=".5"/><path d="m156.582 484.122h-36.183l146.237-364.471h36.399z" fill="#090a0d" opacity=".5"/><path d="m191.046 308.075h-36.112l66.42-166.072h36.326z" fill="#babcbe" opacity=".5"/><path d="m154.934 308.075h-36.183l40.769-102.075h36.255z" fill="url(#a)" opacity=".5"/><path d="m126.561 535.16h-1.147l99.594-252.349h1.146z" fill="url(#c)" opacity=".5"/><path d="m72.1065 389.473h-.7165l153.689-389.370339h.717z" fill="url(#d)" opacity=".5"/><path d="m.528172 523.729h-.35825l159.421078-404.078.358.073z" fill="url(#e)" opacity=".5"/></g></svg>    </div>
+</div>        
+    
+   </div>
+
+</section>
+
+</div>
+
+
+
+    <section id="17-1bfc6f1f" class="content-block-carousel lc-block hero manual">
+
+        <div class="hero-slideshow">
+
+                            <div>
+                    <div class="hero-container">
+                        <div class="container">
+                                                                                        <h1>Captain Agassi guides Team World to Laver Cup glory</h1>
+                                                                                    <p></p>
+                                                             
+                                <div class="btn">
+                                                                    <a href="https://lavercup.com/news/2025/09/21/captain-agassi-guides-team-world-to-laver-cup-glory" target="" title="READ MORE">READ MORE</a>
+                                                                </div>
+                                                                
+                                                            
+                            
+                        </div>
+                    </div>
+                    <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236655396.jpg' media='(max-width: 767px)'><img loading='lazy' width='1200' height='726' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236655396-1200x726.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: (L-R) Team World Vice Captain Patrick Rafter, Reilly Opelka of Team World, Francisco Cerundolo of Team World, Jenson Brooksby of Team World, Alex De Minaur of Team World, Team World Captain Andre Agassi, Taylor Fritz of Team World, Joao Fonseca of Team World, and Alex Michelsen of Team World poses with the Laver Cup Trophy during day three of Laver Cup 2025 at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Clive Brunskill/Getty Images for Laver Cup)' class='orientation-landscape'></picture>                </div>
+                            <div>
+                    <div class="hero-container">
+                        <div class="container">
+                                                                                        <h1>The winners' circle glows red on Sunday</h1>
+                                                                                    <p></p>
+                                                             
+                                <div class="btn">
+                                                                    <a href="https://lavercup.com/photos/2025/09/21/the-winners-circle" target="" title="VIEW GALLERY">VIEW GALLERY</a>
+                                                                </div>
+                                                                
+                                                            
+                            
+                        </div>
+                    </div>
+                    <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/BS3_4850.jpg' media='(max-width: 767px)'><img loading='lazy' width='1200' height='726' src='https://lavercup.com/wp-content/uploads/2025/09/BS3_4850-1200x726.jpg' alt='Altogether now, Team World are the Laver Cup 2025 Champions.'  title='Altogether now, Team World are the Laver Cup 2025 Champions. ' class='orientation-landscape'></picture>                </div>
+                            <div>
+                    <div class="hero-container">
+                        <div class="container">
+                                                                                        <h1>De Minaur has Team World on the brink of victory</h1>
+                                                                                    <p></p>
+                                                             
+                                <div class="btn">
+                                                                    <a href="https://lavercup.com/news/2025/09/21/de-minaur-has-team-world-on-the-brink-of-victory" target="" title="READ MORE">READ MORE</a>
+                                                                </div>
+                                                                
+                                                            
+                            
+                        </div>
+                    </div>
+                    <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236635408.jpg' media='(max-width: 767px)'><img loading='lazy' width='1200' height='726' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236635408-1200x726.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: Alex De Minaur of Team World celebrates after defeating Jakub Mensik of Team Europe during day three of Laver Cup 202 at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Clive Brunskill/Getty Images for Laver Cup)' class='orientation-landscape'></picture>                </div>
+            
+        </div>
+
+        
+        <div class="dots-container"></div>
+
+        
+
+    </section>
+
+    
+
+<section id="18-1bfc6f1f" class="content-block-promotional-squares-group lc-block featured-cards">
+
+  <a class="featured-card f-1" href="https://lavercup.com/benchcam" target="" title="Watch Live">
+    <h2>Bench Cam </h2>
+            
+        <p>The Laver Cup Bench Cam connects fans across the world to all the action taking place on the Team Europe and Team World benches. Watch a court side view live now.</p>
+    
+        <div class="cont-img">
+      <img width="728" height="728" src="https://lavercup.com/wp-content/uploads/2025/09/Benchcam-Promo-728x728.jpg" class="attachment-square_small size-square_small" alt="" decoding="async" fetchpriority="high" srcset="https://lavercup.com/wp-content/uploads/2025/09/Benchcam-Promo-728x728.jpg 728w, https://lavercup.com/wp-content/uploads/2025/09/Benchcam-Promo-150x150.jpg 150w" sizes="(max-width: 728px) 100vw, 728px" />    </div>
+    
+  </a>
+    <a class="featured-card f-2" href="https://lavercup.com/how-to-watch-the-laver-cup" target="_blank" title="Read More">
+    <h2>How to Watch</h2>
+            
+        <p>A wide network of broadcasters highlight the Laver Cup’s international appeal, ensuring fans worldwide have access to live coverage throughout the competition. Don’t miss a beat when Team Europe takes on Team World at Chase Center.</p>
+    
+        <div class="cont-img">
+      <img width="728" height="506" src="https://lavercup.com/wp-content/uploads/2022/09/How-to-watch-promo.jpg" class="attachment-square_small size-square_small" alt="" decoding="async" srcset="https://lavercup.com/wp-content/uploads/2022/09/How-to-watch-promo.jpg 1619w, https://lavercup.com/wp-content/uploads/2022/09/How-to-watch-promo-768x534.jpg 768w, https://lavercup.com/wp-content/uploads/2022/09/How-to-watch-promo-1536x1067.jpg 1536w" sizes="(max-width: 728px) 100vw, 728px" />    </div>
+    
+  </a>
+    <a class="featured-card f-3" href="https://lavercup.com/event-guide" target="" title="Read more">
+    <h2>Event Guide</h2>
+            
+        <p>This comprehensive guide covers all things Laver Cup San Francisco 2025, including the event schedule, session times, site map, transportation, tournament format, and fan experiences. All questions about the event answered in one place.</p>
+    
+        <div class="cont-img">
+      <img width="728" height="728" src="https://lavercup.com/wp-content/uploads/2025/08/HomePage-EventGuide-Thumb-728x728.jpg" class="attachment-square_small size-square_small" alt="" decoding="async" srcset="https://lavercup.com/wp-content/uploads/2025/08/HomePage-EventGuide-Thumb-728x728.jpg 728w, https://lavercup.com/wp-content/uploads/2025/08/HomePage-EventGuide-Thumb-150x150.jpg 150w, https://lavercup.com/wp-content/uploads/2025/08/HomePage-EventGuide-Thumb-768x768.jpg 768w, https://lavercup.com/wp-content/uploads/2025/08/HomePage-EventGuide-Thumb.jpg 1334w" sizes="(max-width: 728px) 100vw, 728px" />    </div>
+    
+  </a>
+  
+</section><section id="19-1bfc6f1f" class="content-block-articles-listing lc-block latest-news">
+  <div class="container">
+    
+      
+        <div class="heading">
+                    <div class="head-left">
+                                        <h2>Latest News &amp; Media</h2>
+                
+                      </div>
+          
+                      <div class="btn">
+              <a href="https://lavercup.com/news-media" target="" title="More">More</a>
+            </div>
+          
+        </div>
+
+      
+    
+
+          <div class="row news-grid">
+
+        
+                      <div class="col-3 news-col">
+                          <a href="https://lavercup.com/news/2025/09/21/team-europe-comeback-falls-one-match-short" title="Read &lsquo;Team Europe Comeback Falls One Match Short&rsquo; more" target="_self">
+                            <div class="img-hover-zoom">
+                  <img loading='lazy' width='750' height='500' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236656347-750x500.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: (L-R) Carlos Alcaraz of Team Europe and Team Europe Captain Yannick Noah speak with the media after losing to Team World during day three of Laver Cup 2025 at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Ezra Shaw/Getty Images for Laver Cup)' class='orientation-landscape'>                                  </div>
+                <div class="news-card">
+                  <h4>Team Europe Comeback Falls One Match Short</h4>
+                  <div class="news-footer">
+                    September 21, 2025 | 1 min read                  </div>
+                </div>
+              </a>
+            </div>
+          
+          
+        
+                      <div class="col-3 news-col">
+                          <a href="https://lavercup.com/news/2025/09/21/captain-agassi-guides-team-world-to-laver-cup-glory" title="Read &lsquo;Captain Agassi Guides Team World to Laver Cup glory&rsquo; more" target="_self">
+                            <div class="img-hover-zoom">
+                  <img loading='lazy' width='750' height='500' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236655396-750x500.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: (L-R) Team World Vice Captain Patrick Rafter, Reilly Opelka of Team World, Francisco Cerundolo of Team World, Jenson Brooksby of Team World, Alex De Minaur of Team World, Team World Captain Andre Agassi, Taylor Fritz of Team World, Joao Fonseca of Team World, and Alex Michelsen of Team World poses with the Laver Cup Trophy during day three of Laver Cup 2025 at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Clive Brunskill/Getty Images for Laver Cup)' class='orientation-landscape'>                                  </div>
+                <div class="news-card">
+                  <h4>Captain Agassi Guides Team World to Laver Cup glory</h4>
+                  <div class="news-footer">
+                    September 21, 2025 | 3 mins read                  </div>
+                </div>
+              </a>
+            </div>
+          
+          
+        
+          
+          
+                          <div class="col-3 news-col news-row">
+                                            <a href="https://lavercup.com/news/2025/09/21/laver-cup-looks-to-london" title="Read &lsquo;Laver Cup Looks to London&rsquo; more" target="_self">
+                              <div class="img-hover-zoom">
+                  <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/05/The-O2-9th-April-2020-by-Luke-Dyson-IMG_0606-1-copy-150x150.jpg' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/05/The-O2-9th-April-2020-by-Luke-Dyson-IMG_0606-1-copy-300x200.jpg' alt='The O2 &#8211; 9th April 2020 by Luke Dyson &#8211; IMG_0606 (1) copy'  class='orientation-landscape'></picture>                                  </div>
+
+                <div class="news-card">
+                  <h5>Laver Cup Looks to London</h5>
+                  <div class="news-footer">
+                    September 21, 2025 | 2 mins read                  </div>
+                </div>
+              </a>
+
+              
+          
+        
+          
+          
+                                          <a href="https://lavercup.com/news/2025/09/21/carlos-stems-the-tide-europe-trails-9-12" title="Read &lsquo;Carlos stems the tide, Europe trails 9-12&rsquo; more" target="_self">
+                              <div class="img-hover-zoom">
+                  <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236639493-150x150.jpg' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236639493-300x200.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: Carlos Alcaraz of Team Europe reacts against Francisco Cerundolo of Team World during day three of Laver Cup 202 at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Eakin Howard/Getty Images for Laver Cup)' class='orientation-landscape'></picture>                                  </div>
+
+                <div class="news-card">
+                  <h5>Carlos stems the tide, Europe trails 9-12</h5>
+                  <div class="news-footer">
+                    September 21, 2025 | 1 min read                  </div>
+                </div>
+              </a>
+
+              
+          
+        
+          
+          
+                                          <a href="https://lavercup.com/photos/2025/09/21/the-winners-circle" title="Video &lsquo;The winners&#8217; circle glows red on Sunday&rsquo; photos" target="_self">
+                              <div class="img-hover-zoom">
+                  <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236653116-150x150.jpg' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/GettyImages-2236653116-300x200.jpg' alt='Laver Cup 2025 &#8211; Day 3'  title='SAN FRANCISCO, CALIFORNIA - SEPTEMBER 21: Taylor Fritz of Team World (C) celebrates with teammates after winning match point to defeat Alexander Zverev of Team Europe to win Laver Cup 2025 for Team World during day three at Chase Center on September 21, 2025 in San Francisco, California.  (Photo by Ezra Shaw/Getty Images for Laver Cup)' class='orientation-landscape'></picture>                  <svg id="svg-inline-94ea667391b570bdebb16e7cc1b6a9e6"  class="d-inline-block" class="gallery-icon" width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 0.550781C0.723858 0.550781 0.5 0.774639 0.5 1.05078V17.0508C0.5 17.3269 0.723858 17.5508 1 17.5508H21C21.2761 17.5508 21.5 17.3269 21.5 17.0508V1.05078C21.5 0.774639 21.2761 0.550781 21 0.550781H1ZM2.5 3.05078C2.5 2.77464 2.72386 2.55078 3 2.55078H19C19.2761 2.55078 19.5 2.77464 19.5 3.05078V15.0508C19.5 15.3269 19.2761 15.5508 19 15.5508H3C2.72386 15.5508 2.5 15.3269 2.5 15.0508V3.05078ZM4 3.55078C3.72386 3.55078 3.5 3.77464 3.5 4.05078V14.0508C3.5 14.3269 3.72386 14.5508 4 14.5508H18C18.2761 14.5508 18.5 14.3269 18.5 14.0508V4.05078C18.5 3.77464 18.2761 3.55078 18 3.55078H4ZM4.5 5.05078C4.5 4.77464 4.72386 4.55078 5 4.55078H17C17.2761 4.55078 17.5 4.77464 17.5 5.05078V13.0508C17.5 13.3269 17.2761 13.5508 17 13.5508H5C4.72386 13.5508 4.5 13.3269 4.5 13.0508V5.05078ZM23 4.55078C22.7239 4.55078 22.5 4.77464 22.5 5.05078V18.0508C22.5 18.3269 22.2761 18.5508 22 18.5508H5C4.72386 18.5508 4.5 18.7746 4.5 19.0508V20.0508C4.5 20.3269 4.72386 20.5508 5 20.5508H24C24.2761 20.5508 24.5 20.3269 24.5 20.0508V5.05078C24.5 4.77464 24.2761 4.55078 24 4.55078H23Z" fill="white"></path>
+                        </svg>                </div>
+
+                <div class="news-card">
+                  <h5>The winners&#8217; circle glows red on Sunday</h5>
+                  <div class="news-footer">
+                    September 21, 2025                  </div>
+                </div>
+              </a>
+
+                            </div>
+            
+          
+              </div>
+
+    
+    
+              <div class="btn hidden-lg-up">
+          <a href="https://lavercup.com/news-media" target="" title="More">More</a>
+        </div>
+      
+    
+  </div>
+
+  
+</section><section id="20-1bfc6f1f" class="content-block-team-line-up players_grid">
+
+
+  <div class="victory-cont">
+    <div class="cont-v">
+      <img class="victory" loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/victory.svg" alt="decorative shape" />
+    </div>
+  </div>
+  <!-- EUROPE -->
+  <div class="container europe">
+    <img class="pattern-europe" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-europe.svg" alt="Decorative patterns" />
+    <div class="players-left col">
+      <div class="content-title">
+        <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team Europe logo" class="cup" />
+        <h2 class="hidden-lg-down">Team Europe</h2>
+      </div>
+      <div class="row players-cards">
+      <div class="player player-europe">    
+      <a href="https://lavercup.com/player/carlos-alcaraz" title="View &#039;Carlos Alcaraz&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Alcaraz</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Alcaraz-2025_Player_Profiles_Template.png' alt='Alcaraz-2025_Player_Profiles_Template'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-europe">    
+      <a href="https://lavercup.com/player/alexander-zverev" title="View &#039;Alexander Zverev&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Zverev</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Zverev-2025_Player_Profiles_Template.png' alt='Zverev-2025_Player_Profiles_Template'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-europe">    
+      <a href="https://lavercup.com/player/holger-rune" title="View &#039;Holger Rune&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Rune</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2023/05/Rune-2025_Player_Profiles_Template2.png' alt='Rune-2025_Player_Profiles_Template2'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-europe">    
+      <a href="https://lavercup.com/player/casper-ruud" title="View &#039;Casper Ruud&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Ruud</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Ruud-2025_Player_Profiles_Template.png' alt='Ruud-2025_Player_Profiles_Template'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-europe">    
+      <a href="https://lavercup.com/player/jakub-mensik" title="View &#039;Jakub Mensik&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Mensik</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Mensic-2025_Player_Profiles_Template.png' alt='Mensic-2025_Player_Profiles_Template'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-europe">    
+      <a href="https://lavercup.com/player/flavio-cobolli" title="View &#039;Flavio Cobolli&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-europe.svg" alt="Team logo" class="cup" />
+              <h3>Cobolli</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Coboli-2025_Player_Profiles_Template.png' alt='Coboli-2025_Player_Profiles_Template'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-europe.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div>      </div>
+    </div>
+  </div>
+  <!-- WORLD -->
+  <div class="container world">
+    <img class="pattern-world" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-world.svg" alt="Decorative patterns" />
+    <div class="players-right col">
+      <div class="content-title">
+        <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team World logo" class="cup" />
+        <h2 class="hidden-lg-down">Team World</h2>
+      </div>
+      <div class="row players-cards">
+        <div class="player player-world">    
+      <a href="https://lavercup.com/player/taylor-fritz" title="View &#039;Taylor Fritz&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>Fritz</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fritz-2025_Player_Profiles_Template.png' alt='Fritz-2025_Player_Profiles_Template'  class='player-img offset-left orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-world">    
+      <a href="https://lavercup.com/player/alex-de-minaur" title="View &#039;Alex de Minaur&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>de Minaur</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2024/08/2024-DeMinaur-Profile.png' alt='2024-DeMinaur-Profile'  class='player-img  orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-world">    
+      <a href="https://lavercup.com/player/francisco-cerundolo" title="View &#039;Francisco Cerundolo&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>Cerundolo</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Cerundolo-2025_Player_Profiles_Template.png' alt='Cerundolo-2025_Player_Profiles_Template'  class='player-img offset-left orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-world">    
+      <a href="https://lavercup.com/player/alex-michelsen" title="View &#039;Alex Michelsen&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>Michelsen</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Michelsen-2025_Player_Profiles_Template.png' alt='Michelsen-2025_Player_Profiles_Template'  class='player-img offset-left orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-world">    
+      <a href="https://lavercup.com/player/joao-fonseca" title="View &#039;João Fonseca&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>Fonseca</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2025/08/Fonseca-2025_Player_Profiles_Template.png' alt='Fonseca-2025_Player_Profiles_Template'  class='player-img offset-left orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div><div class="player player-world">    
+      <a href="https://lavercup.com/player/reilly-opelka" title="View &#039;Reilly Opelka&#039;  profile">
+                <div class="col-content">
+          <div class="name">
+              <img loading="lazy" src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/trophy-world.svg" alt="Team logo" class="cup" />
+              <h3>Opelka</h3>
+          </div>
+          <img loading='lazy' width='400' height='474' src='https://lavercup.com/wp-content/uploads/2021/08/Opelka-2025_Player_Profiles_Template.png' alt='Opelka-2025_Player_Profiles_Template'  class='player-img offset-left orientation-portrait'>          <div class="pattern">
+              <img src="https://lavercup.com/wp-content/themes/lavercup_spark/assets/graphics/pattern-captain-world.svg" alt="decorative shape" />
+          </div>
+        </div>
+      </a>
+    
+    </div>      </div>
+    </div>
+  </div>
+
+
+</section>
+<section id="21-1bfc6f1f" class="content-block-video-streamlined-listing lc-block">
+  <div class="container">
+    <div class="heading">
+      <div class="head-left">
+      <h2>Featured Videos</h2>
+      </div>
+            <div class="btn">
+        <a href="https://lavercup.com/news-media#videos" target="" title="More Videos">More Videos</a>
+      </div>
+        </div>
+    <div class="video-streamlined-carousel">
+      
+                  <div class="videos-col">
+                             <a href="https://players.brightcove.net/6199586113001/default_default/index.html?videoId=6379902986112" title="Watch &lsquo;2025 | Match Highlights &#8211; Zverev v Fritz (Match 12)&rsquo; video" data-fancybox data-type="iframe" data-title="2025 | Match Highlights &#8211; Zverev v Fritz (Match 12)" data-href="https://lavercup.com/videos/2025/09/21/2025-match-highlights-zverev-v-fritz-match-12" data-preload="false">
+                              <div class="img-hover-zoom">
+                <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/8601a60d-2688-405b-b8d8-c7930df65864-150x150.png' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/8601a60d-2688-405b-b8d8-c7930df65864-300x200.png' alt='8601a60d-2688-405b-b8d8-c7930df65864'  class='orientation-landscape'></picture>              </div>
+              <div class="news-card">
+                <h4>2025 | Match Highlights &#8211; Zverev v Fritz (Match 12)</h4>
+              </div>
+            </a>
+          </div>
+                  <div class="videos-col">
+                             <a href="https://players.brightcove.net/6199586113001/default_default/index.html?videoId=6379902893112" title="Watch &lsquo;2025 | On-Court Interview &#8211; Fritz (Match 12)&rsquo; video" data-fancybox data-type="iframe" data-title="2025 | On-Court Interview &#8211; Fritz (Match 12)" data-href="https://lavercup.com/videos/2025/09/21/2025-on-court-interview-fritz-match-12" data-preload="false">
+                              <div class="img-hover-zoom">
+                <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/d1658b21-8a52-4c9a-960b-148aae061ede-150x150.png' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/d1658b21-8a52-4c9a-960b-148aae061ede-300x200.png' alt='d1658b21-8a52-4c9a-960b-148aae061ede'  class='orientation-landscape'></picture>              </div>
+              <div class="news-card">
+                <h4>2025 | On-Court Interview &#8211; Fritz (Match 12)</h4>
+              </div>
+            </a>
+          </div>
+                  <div class="videos-col">
+                             <a href="https://players.brightcove.net/6199586113001/default_default/index.html?videoId=6379898071112" title="Watch &lsquo;2025 | Highlights &#8211; Alcaraz v Cerundolo (Match 11)&rsquo; video" data-fancybox data-type="iframe" data-title="2025 | Highlights &#8211; Alcaraz v Cerundolo (Match 11)" data-href="https://lavercup.com/videos/2025/09/21/2025-highlights-alcaraz-v-cerundolo-match-11" data-preload="false">
+                              <div class="img-hover-zoom">
+                <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/103b432f-0d28-49e3-947e-f2885f682fe8-150x150.png' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/103b432f-0d28-49e3-947e-f2885f682fe8-300x200.png' alt='103b432f-0d28-49e3-947e-f2885f682fe8'  class='orientation-landscape'></picture>              </div>
+              <div class="news-card">
+                <h4>2025 | Highlights &#8211; Alcaraz v Cerundolo (Match 11)</h4>
+              </div>
+            </a>
+          </div>
+                  <div class="videos-col">
+                             <a href="https://players.brightcove.net/6199586113001/default_default/index.html?videoId=6379900162112" title="Watch &lsquo;2025 | On-Court Interview &#8211; Alcaraz (Match 11)&rsquo; video" data-fancybox data-type="iframe" data-title="2025 | On-Court Interview &#8211; Alcaraz (Match 11)" data-href="https://lavercup.com/videos/2025/09/21/2025-on-court-interview-alcaraz-match-11" data-preload="false">
+                              <div class="img-hover-zoom">
+                <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/image-7.24.32-pm-150x150.jpg' media='(max-width: 468px;)'><img loading='lazy' width='300' height='200' src='https://lavercup.com/wp-content/uploads/2025/09/image-7.24.32-pm-300x200.jpg' alt='image 7.24.32 pm'  class='orientation-landscape'></picture>              </div>
+              <div class="news-card">
+                <h4>2025 | On-Court Interview &#8211; Alcaraz (Match 11)</h4>
+              </div>
+            </a>
+          </div>
+            
+    </div>
+          <div class="btn">
+        <a href="https://lavercup.com/news-media#videos" target="" title="More Videos">More Videos</a>
+      </div>
+      </div>
+</section>
+
+<section id="22-1bfc6f1f" class="content-block-promotional-banner lc-block feature parallax-container">
+  <div class="container flex-center">
+
+  <h2>Laver Cup London 2026</h2>
+
+            <p class="p1">The Laver Cup returns to The O2 in London for its ninth edition on September 25–27, 2026. Become a Laver Cup Insider to stay up to date with the latest news and announcements.</p>
+    
+          <div class="btn">
+                <a href="https://lavercup.com/insider" target="" title="Sign Up">Sign Up</a>
+            </div>
+        
+  </div>
+  
+      
+    <div class="parallax">
+      <picture><source srcset='https://lavercup.com/wp-content/uploads/2025/08/London-O2-Arena-2026-750x500.jpg' media='(max-width: 767px)'><img loading='lazy' width='1440' height='726' src='https://lavercup.com/wp-content/uploads/2025/08/London-O2-Arena-2026.jpg' alt='London-O2-Arena-2026'  class='orientation-landscape'></picture>    </div>
+  
+</section>
+  <section id="23-1bfc6f1f" class="content-block-promotional-columns-group special--type--2up-variaton-2 lc-block hospitality hospitality-type--2up-variaton-2 no-bg">
+
+    <div class="container">
+        <div class="heading">
+          <div class="head-left">
+            <h2>About The Laver Cup</h2>
+                      </div>
+                  </div>
+
+                <div class="row hospitality-cards">
+
+                    <div class="col-2 hospitality-card">
+
+                        <a href="https://lavercup.com/how-laver-cup-works" target="" title="Read More">
+            
+              <div class="img-hover-zoom">
+                <img loading='lazy' width='728' height='425' src='https://lavercup.com/wp-content/uploads/2022/09/armsup.jpg' alt='armsup'  title='Team World captain John McEnroe reacts to his team&#039;s first Laver Cup victory. ' class='orientation-landscape'>              </div>
+              <div class="hc-container">
+                <h3>How It Works</h3>
+
+                
+                                  <p>The Laver Cup pits six of the best men's tennis players from Europe against six of their best counterparts from the rest of the world over three days of intense team competition.</p>
+                                
+                <div class="bottom-content">
+                
+                                                      <button>Read More</button>
+                                                  </div>
+              </div>
+
+                            </a>
+              
+          </div>
+                    <div class="col-2 hospitality-card">
+
+                        <a href="https://lavercup.com/rod-laver" target="" title="Read More">
+            
+              <div class="img-hover-zoom">
+                <img loading='lazy' width='728' height='485' src='https://lavercup.com/wp-content/uploads/2019/09/Sunday_5.jpg' alt='Tennis legend Rod Laver takes a bow on the final day of Laver Cup 2019'  title='Tennis legend Rod Laver takes a bow on the final day of Laver Cup 2019. Photo by Clive Brunskill/Getty Images for Laver Cup' class='orientation-landscape'>              </div>
+              <div class="hc-container">
+                <h3>Rod Laver</h3>
+
+                
+                                  <p>The Laver Cup was created to honor Australian tennis legend Rod Laver. Read more about the man himself, "Rocket" Rod Laver.</p>
+                                
+                <div class="bottom-content">
+                
+                                                      <button>Read More</button>
+                                                  </div>
+              </div>
+
+                            </a>
+              
+          </div>
+          
+        </div>
+
+
+          
+
+        
+
+      
+    </div>
+
+  </section>
+
+
+
+  <section id="24-1bfc6f1f" class="content-block-registration-form lc-block register no-embedded-form">
+    <div class="container flex-center">
+      <h2 id="register">Become A Laver Cup Insider</h2>
+      <h4>Join an exclusive group of fans and get inside access to the latest Laver Cup news, player announcements and ticket presales.</h4>
+            <div class="btn">
+                                <a href="https://lavercup.com/insider" target="" title="Register Now">Register Now</a>
+                          </div>
+                
+    </div>
+
+        
+        <div class="bg">
+          <picture><source srcset='https://lavercup.com/wp-content/uploads/2024/03/stadium-1-1-750x400.jpg' media='(max-width: 767px)'><img loading='lazy' width='1440' height='400' src='https://lavercup.com/wp-content/uploads/2024/03/stadium-1-1.jpg' alt='Birdseye view of tennis venue'  class='orientation-landscape'></picture>        </div>
+      
+  </section>
+
+
+
+
+
+
+
+<section id="25-1bfc6f1f" class="content-block-sponsors-partners  streamlined lc-block sponsors">
+    <div class="container">
+        <div class="container__row">
+
+                        <div class="container__col-sm-12 container__col-md-6 col__center">
+                
+                <strong>Founding Partner</strong>
+                
+                <div class="logos">
+                    <a href='https://lavercup.com/sponsors' title='Visit View Sponsors page' rel='noopener'><img width="264" height="137" src="https://lavercup.com/wp-content/uploads/2025/06/Sponsors_Jun_2025_Rolex.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></a>                </div>
+
+            </div>
+            
+                        <div class="container__col-sm-12 container__col-md-6 col__center">
+                
+                <strong>Global Sponsors</strong>
+                
+                <div class="logos">
+                    <a href='https://lavercup.com/sponsors' title='Visit View Sponsors page' rel='noopener'><img width="264" height="137" src="https://lavercup.com/wp-content/uploads/2025/06/Sponsors_Jun_2025_UBS.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></a><a href='https://lavercup.com/sponsors' title='Visit View Sponsors page' rel='noopener'><img width="264" height="137" src="https://lavercup.com/wp-content/uploads/2025/06/Sponsors_Jun_2025_Mercedes.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></a><a href='https://lavercup.com/sponsors' title='Visit View Sponsors page' rel='noopener'><img width="264" height="137" src="https://lavercup.com/wp-content/uploads/2025/06/Sponsors_Jun_2025_Alipay.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></a>                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <div class="container__row">
+            <div class="container__col-sm-12 container__col-md-7 col__left">
+                <p>The appearance of any specific player is not guaranteed and is subject to change without notice.</p>
+                <p class="p-caption">&copy;2025 TRIDENT8 dba Laver Cup. All rights reserved.</p>
+                <ul id="menu-footer" class="menu"><li id="menu-item-11052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11052"><a href="https://lavercup.com/contact-us">Contact Us</a></li>
+<li id="menu-item-11053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-11053"><a rel="privacy-policy" href="https://lavercup.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-11054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11054"><a href="https://lavercup.com/terms">Terms</a></li>
+<li id="menu-item-16720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16720"><a href="https://lavercup.com/media">Media</a></li>
+</ul>            </div>
+            <div class="container__col-sm-12 container__col-md-4 col__right">
+                <!-- Using Yoast SEO settings --><ul   class="social"><li class=""><a href="https://www.facebook.com/LaverCup" title="Follow us on Facebook" target="_blank" rel="noopener"><svg id="svg-inline-24409593a58543c86201d411376289d6"  class="d-inline-block" fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584.312 3.584.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z" fill="#fff"/></svg></a></li> <li class=""><a href="https://www.instagram.com/lavercup" title="Follow us on Instagram" target="_blank" rel="noopener"><svg id="svg-inline-95471befc5017b075180844217f7f691"  class="d-inline-block" fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m16 32c8.8366 0 16-7.1634 16-16 0-8.83656-7.1634-16-16-16-8.83656 0-16 7.16344-16 16 0 8.8366 7.16344 16 16 16zm-4.0426-26h8.0842c1.5796.00159 3.0941.62972 4.2111 1.74659 1.1171 1.11686 1.7454 2.63121 1.7473 4.21081v8.0842c-.0016 1.5796-.6297 3.0941-1.7466 4.2111-1.1168 1.1171-2.6312 1.7454-4.2108 1.7473h-8.0842c-1.5796-.0016-3.09406-.6297-4.21111-1.7466-1.11704-1.1168-1.74543-2.6312-1.74729-4.2108v-8.0842c.00159-1.5796.62972-3.09406 1.74659-4.21111 1.11686-1.11704 2.63121-1.74543 4.21081-1.74729zm11.7306 15.552c.1984-.4789.3005-.9921.3005-1.5104v-8.0832c0-1.0466-.4157-2.05034-1.1557-2.7905s-1.7436-1.15611-2.7902-1.15638h-8.0842c-1.0466 0-2.05034.4157-2.7905 1.15567s-1.15611 1.74361-1.15638 2.79021v8.0842c0 1.0466.4157 2.0503 1.15567 2.7905s1.74361 1.1561 2.79021 1.1564h8.0842c.5183 0 1.0315-.1021 1.5104-.3005.4788-.1983.914-.489 1.2805-.8555s.6572-.8017.8555-1.2805zm-7.6883-10.7245c-1.371.0021-2.6852.5477-3.6545 1.5172-.9694.9695-1.5147 2.2838-1.5166 3.6548.0016 1.3713.547 2.686 1.5166 3.6558.9695.9698 2.2841 1.5154 3.6555 1.5173 1.3715-.0016 2.6863-.5472 3.6561-1.517.9698-.9697 1.5153-2.2846 1.5169-3.6561-.0021-1.3713-.548-2.6858-1.518-3.6552-.9699-.9694-2.2847-1.5145-3.656-1.5158zm0 8.3335c-.8383 0-1.6422-.3329-2.2349-.9257-.5927-.5927-.9257-1.3966-.9257-2.2348s.333-1.6421.9257-2.2348 1.3966-.9257 2.2349-.9257c.8382 0 1.6421.333 2.2348.9257s.9257 1.3966.9257 2.2348-.333 1.6421-.9257 2.2348c-.5927.5928-1.3966.9257-2.2348.9257zm6.422-8.2945c0 .6844-.5548 1.2392-1.2392 1.2392-.6843 0-1.2391-.5548-1.2391-1.2392s.5548-1.23915 1.2391-1.23915c.6844 0 1.2392.55475 1.2392 1.23915z" fill="#fff" fill-rule="evenodd"/></svg></a></li> <li class=""><a href="https://www.threads.net/@lavercup" title="Follow us on Threads" target="_blank" rel="noopener"><svg id="svg-inline-79e0b3df9134cfe3eaf145c7647a0a93"  class="d-inline-block" width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7652_24856)">
+<circle cx="16.5" cy="16" r="16" fill="white"/>
+<path d="M22.1921 15.1235C22.0887 15.074 21.9837 15.0263 21.8774 14.9806C21.6921 11.5673 19.827 9.61312 16.6952 9.59312C16.681 9.59304 16.6669 9.59304 16.6528 9.59304C14.7795 9.59304 13.2216 10.3926 12.2628 11.8476L13.9851 13.0291C14.7014 11.9423 15.8257 11.7106 16.6536 11.7106C16.6631 11.7106 16.6727 11.7106 16.6822 11.7107C17.7134 11.7173 18.4915 12.0171 18.9951 12.6018C19.3616 13.0274 19.6067 13.6156 19.7281 14.358C18.8139 14.2026 17.8251 14.1548 16.7681 14.2154C13.7906 14.3869 11.8764 16.1235 12.005 18.5365C12.0702 19.7605 12.68 20.8135 13.7219 21.5014C14.6028 22.0829 15.7374 22.3673 16.9165 22.3029C18.4738 22.2175 19.6954 21.6234 20.5476 20.537C21.1949 19.712 21.6042 18.6429 21.785 17.2957C22.5271 17.7436 23.0771 18.333 23.3809 19.0415C23.8974 20.2459 23.9275 22.225 22.3126 23.8385C20.8978 25.252 19.197 25.8635 16.6267 25.8824C13.7755 25.8612 11.6192 24.9469 10.2173 23.1646C8.90444 21.4958 8.22596 19.0852 8.20065 16C8.22596 12.9147 8.90444 10.5042 10.2173 8.83534C11.6192 7.05311 13.7755 6.13875 16.6266 6.11756C19.4985 6.13891 21.6924 7.05767 23.148 8.8485C23.8618 9.7267 24.3999 10.8311 24.7546 12.1188L26.773 11.5803C26.343 9.99528 25.6664 8.62946 24.7456 7.49675C22.8795 5.20084 20.1503 4.02439 16.6337 4H16.6196C13.1102 4.02431 10.4115 5.20522 8.59854 7.50991C6.98524 9.5608 6.15305 12.4145 6.12509 15.9916L6.125 16L6.12509 16.0084C6.15305 19.5855 6.98524 22.4393 8.59854 24.4901C10.4115 26.7948 13.1102 27.9757 16.6196 28H16.6337C19.7538 27.9784 21.953 27.1615 23.7647 25.3514C26.1351 22.9832 26.0637 20.0149 25.2825 18.1926C24.722 16.8859 23.6534 15.8245 22.1921 15.1235ZM16.8051 20.1884C15.5001 20.2619 14.1443 19.6761 14.0774 18.4215C14.0279 17.4913 14.7395 16.4532 16.8851 16.3296C17.1309 16.3154 17.372 16.3085 17.6089 16.3085C18.3883 16.3085 19.1174 16.3842 19.7802 16.5291C19.533 19.6169 18.0828 20.1182 16.8051 20.1884Z" fill="#010101"/>
+</g>
+<defs>
+<clipPath id="clip0_7652_24856">
+<rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
+</a></li> <li class=""><a href="https://www.tiktok.com/@lavercup" title="Follow us on Tiktok" target="_blank" rel="noopener"><svg id="svg-inline-2f726e0fc0e77981a4349d4c0a8ba89b"  class="d-inline-block" width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7652_24855)">
+<circle cx="16.5" cy="16" r="16" fill="white"/>
+<path d="M24.6118 14.0916C24.4484 14.1075 24.2843 14.1158 24.1201 14.1166C23.2336 14.1167 22.361 13.8961 21.581 13.4746C20.8011 13.0531 20.1384 12.444 19.6528 11.7023V19.9236C19.6528 21.1254 19.2964 22.3002 18.6287 23.2995C17.961 24.2987 17.012 25.0776 15.9017 25.5375C14.7914 25.9974 13.5697 26.1177 12.3909 25.8832C11.2122 25.6488 10.1295 25.0701 9.27974 24.2203C8.42994 23.3705 7.85122 22.2878 7.61676 21.1091C7.3823 19.9304 7.50263 18.7086 7.96254 17.5983C8.42245 16.488 9.20127 15.539 10.2005 14.8713C11.1998 14.2036 12.3746 13.8472 13.5764 13.8472C13.7032 13.8472 13.8272 13.8586 13.9519 13.8665V16.8608C13.8272 16.8459 13.7047 16.8231 13.5764 16.8231C12.7539 16.8231 11.9651 17.1498 11.3835 17.7314C10.8019 18.313 10.4751 19.1018 10.4751 19.9243C10.4751 20.7468 10.8019 21.5356 11.3835 22.1172C11.9651 22.6988 12.7539 23.0256 13.5764 23.0256C15.2895 23.0256 16.8024 21.6759 16.8024 19.9628L16.8323 6H19.697C19.8279 7.2447 20.3921 8.40379 21.291 9.2746C22.19 10.1454 23.3664 10.6725 24.6147 10.7638V14.0916" fill="#010101"/>
+</g>
+<defs>
+<clipPath id="clip0_7652_24855">
+<rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
+</a></li> <li class=""><a href="https://twitter.com/LaverCup" title="Follow us on Twitter" target="_blank" rel="noopener"><svg id="svg-inline-988eb0f28dadcccf8eb6f2c399cfe3e2"  class="d-inline-block" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.218445" y="0.354004" width="32" height="32" rx="16" fill="white"/>
+<path d="M8.1911 8.854L14.1042 17.3045L8.50197 23.854H10.7025L15.0889 18.7124L18.6859 23.854H24.4444L18.2595 14.9998L23.502 8.854H21.3356L17.278 13.5936L13.9675 8.854H8.1911ZM11.391 10.5207H13.0983L21.2461 22.1873H19.5534L11.391 10.5207Z" fill="#25272C"/>
+</svg>
+</a></li> <li class=""><a href="https://www.youtube.com/channel/UC759rBUss3b39R0j6u_ECPA" title="Follow us on Youtube" target="_blank" rel="noopener"><svg id="svg-inline-7976d407bb72464806968255c612a51e"  class="d-inline-block" fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><g fill="#fff"><path d="m8.01746 18.0258h1.2977v6.4174h1.24434v-6.4174h1.2977v-1.0844h-3.83974z"/><path d="m14.5772 23.1101c-.2134.2488-.9422.7466-.9422.0355v-4.2486h-1.1022v4.6397c0 1.4044 1.4044 1.0311 2.0621.3022v.6044h1.1022v-5.5463h-1.1022v4.2131z"/><path d="m18.6834 18.861c-.6399 0-1.0488.48-1.0488.48v-2.4177h-1.12v7.5196h1.12v-.4266s.3733.4977 1.0488.4977c.5866 0 1.0311-.5155 1.0311-1.2266v-3.0754c0-.8355-.3911-1.351-1.0311-1.351zm-.1244 4.2842c0 .4089-.2844.6044-.6578.4444-.1008-.0471-.1914-.1135-.2666-.1955v-3.4487c.0711-.0711.16-.1244.2311-.1778.3911-.1955.6933.1067.6933.5156z"/><path d="m22.6654 22.861c0 .4267-.2311.7111-.4978.7289-.2844.0178-.5688-.2133-.5688-.7289v-1.0488h2.1154v-1.4221c.0054-.2166-.0327-.432-.1121-.6336-.0794-.2015-.1984-.385-.3501-.5397-.3058-.279-.706-.4314-1.1199-.4267-.3911 0-.8.1245-1.12.3734-.3377.2666-.551.6755-.551 1.2266v2.4887c0 .4978.16.8889.4088 1.1733.3022.32.7111.4977 1.1377.5155.5156.0178 1.0666-.1955 1.3866-.64.1956-.2666.32-.6221.32-1.0488v-.2844h-1.0488zm-1.0666-2.4709c0-.3022.1777-.6578.5155-.6578s.5511.32.5511.6578v.5688h-1.0666z"/><path d="m15.9991.00000002c-2.1011.0001167-4.1817.41408398-6.12286 1.21826998-1.94116.80418-3.70492 1.98283-5.19058 3.46865-1.48565 1.48582-2.66411 3.24971-3.46807 5.19097-.80397 1.94121-1.2177067 4.02181-1.21758998 6.12301.00011673 2.1011.41408498 4.1817 1.21826998 6.1229.80418 1.9411 1.98283 3.7049 3.46865 5.1905 1.48582 1.4857 3.24971 2.6641 5.19097 3.4681 1.94121.804 4.02181 1.2177 6.12301 1.2176 4.2435-.0002 8.313-1.6862 11.3134-4.6869 3.0005-3.0008 4.6859-7.0705 4.6857-11.314s-1.6862-8.31302-4.6869-11.31344c-3.0008-3.00041-7.0705-4.68589565-11.314-4.68565998zm2.8087 5.99077998h1.4222v4.76422c0 .3022.1422.3022.1955.3022.2134 0 .5333-.2311.6933-.3911v-4.6931h1.4222v6.293h-1.4222v-.5511c-.1955.1778-.3911.32-.5866.4266-.2667.1423-.5155.1956-.7644.1956-.1363.0065-.2723-.0172-.3983-.0694-.126-.0523-.2389-.1318-.3306-.2328-.1599-.1956-.2311-.4978-.2311-.8711zm-4.533 1.65324c0-.97772.7999-1.77768 1.7776-1.77768.9778 0 1.7777.79996 1.7777 1.77768v3.02208c0 .9777-.7999 1.7777-1.7777 1.7777-.9777 0-1.7776-.8-1.7776-1.7777zm-3.6976-3.82201.8533 3.12871.871-3.12871h1.6177l-1.671 4.94195v3.50204h-1.5821v-3.50204l-1.7066-4.94195zm14.0437 22.29209c-.9067.8888-8.5862.9066-8.5862.9066s-7.66183-.0178-8.58623-.9066c-.90661-.8888-.90661-5.3153-.90661-5.3508 0-.0178 0-4.4442.90661-5.3508.90662-.8889 8.58623-.9066 8.58623-.9066s7.6618.0177 8.5862.9066c.9066.8888.9243 5.3152.9243 5.3508 0 0 0 4.4442-.9243 5.3508z"/><path d="m16.017 11.2884c.3022 0 .4444-.1778.4622-.4622v-3.37758c0-.2311-.2311-.42665-.4444-.42665-.2134 0-.4445.17777-.4445.42665v3.37758c0 .2667.1245.4444.4267.4622z"/></g></svg></a></li></ul>                <a href="#" class="hashtag">#LaverCup</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<iframe title="Rolex clock" loading="lazy" class="rolex_countdown" src="https://static.rolex.com/clocks/2023/Lavercup_HTML_300x80/rolex.html" SCROLLING=NO frameborder="NO"></iframe>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/lavercup_spark\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://lavercup.com/wp-content/cache/wpo-minify/1758430735/assets/wpo-minify-footer-20c703c6.min.js" id="wpo_min-footer-1-js"></script>
+
+
+
+
+  <div class="popup" id="popup">
+    <div class="popup-inner">
+    <a href="https://lavercup.com/insider" class=" popup-link" target="_self" title="Become a Laver Cup Insider"  ><picture><source srcset='https://lavercup.com/wp-content/uploads/2025/09/sf2026-pop-london-insider-promo-768x528.jpg' media='max-width: 767px'><img loading='lazy' width='800' height='550' src='https://lavercup.com/wp-content/uploads/2025/09/sf2026-pop-london-insider-promo.jpg' alt='sf2026-pop-london-insider-promo'  class='orientation-landscape'></picture></a>      <div class="close">×</div>
+    </div>
+  </div>
+
+  <style>
+    .popup {position: fixed;background: rgba(0,0,0,0.80);left: 0px;right: 0px;bottom: 0px;top: 0px;z-index: 999;display: none;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
+  .popup-inner {background: transparent;box-sizing: border-box;position: relative;max-height: calc( - 200px);margin-top: 34px;}
+  .popup .close {cursor: pointer;height: 18px;width: 18px;position: absolute;right: 0px;top: -18px;color: #fff;font-size: 18px;font-weight: 300;text-align: center;background: #84754e;}
+  /* .popup .close:hover { } */
+  .popup-content{box-sizing: border-box;}
+  .popup-inner img { 
+    max-height: calc(80vh - 100px);
+    /* max-width: calc(100vw - 100px);  */
+    max-width: 800px; 
+    width: auto;
+    display: block;}
+    @media only screen and (max-width:768px) {
+        .popup-inner  {max-height: calc(100vh - 100px);}
+        .popup-inner img { 
+          /* max-height: calc(100vh - 70px);  */
+          height: auto;
+          max-width: calc(90vw - 24px);
+        }
+      } 
+  </style>
+
+  <script>
+      /*!
+      * jQuery Cookie Plugin v1.4.1
+      * https://github.com/carhartl/jquery-cookie
+      *
+      * Copyright 2006, 2014 Klaus Hartl
+      * Released under the MIT license
+      */(function(factory){if(typeof define==='function'&&define.amd){define(['jquery'],factory);}else if(typeof exports==='object'){module.exports=factory(require('jquery'));}else{factory(jQuery);}}(function($){var pluses=/\+/g;function encode(s){return config.raw?s:encodeURIComponent(s);}
+      function decode(s){return config.raw?s:decodeURIComponent(s);}
+      function stringifyCookieValue(value){return encode(config.json?JSON.stringify(value):String(value));}
+      function parseCookieValue(s){if(s.indexOf('"')===0){s=s.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,'\\');}
+      try{s=decodeURIComponent(s.replace(pluses,' '));return config.json?JSON.parse(s):s;}catch(e){}}
+      function read(s,converter){var value=config.raw?s:parseCookieValue(s);return $.isFunction(converter)?converter(value):value;}
+      var config=$.cookie=function(key,value,options){if(arguments.length>1&&!$.isFunction(value)){options=$.extend({},config.defaults,options);if(typeof options.expires==='number'){var days=options.expires,t=options.expires=new Date();t.setMilliseconds(t.getMilliseconds()+days*864e+5);}
+      return(document.cookie=[encode(key),'=',stringifyCookieValue(value),options.expires?'; expires='+options.expires.toUTCString():'',options.path?'; path='+options.path:'',options.domain?'; domain='+options.domain:'',options.secure?'; secure':''].join(''));}
+      var result=key?undefined:{},cookies=document.cookie?document.cookie.split('; '):[],i=0,l=cookies.length;for(;i<l;i++){var parts=cookies[i].split('='),name=decode(parts.shift()),cookie=parts.join('=');if(key===name){result=read(cookie,value);break;}
+      if(!key&&(cookie=read(cookie))!==undefined){result[name]=cookie;}}
+      return result;};config.defaults={};$.removeCookie=function(key,options){$.cookie(key,'',$.extend({},options,{expires:-1}));return!$.cookie(key);};}));
+
+      $(document).ready(function(){
+              if($.cookie("popup-n-c0655653") != "1") {		     
+          $('#popup').css({'display':'flex'});
+              }
+              // else{console.log("popup gizli");}
+          });
+      $(".popup .close, #popup, .popup-link ").click(function () {
+                  $(".popup").fadeOut();
+            // $.cookie("popup", "1", {expires:1});
+                  $.cookie("popup-n-c0655653", "1");
+      });
+  </script>
+
+</body>
+
+</html>
