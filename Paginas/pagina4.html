@@ -8,96 +8,188 @@
     <link rel="icon" type="icon" href="../Icones/Caneta.png"/>
     <link rel="stylesheet" type="text/css" href="../style.css"/>
 </head>
-<body>
-<p></p>
-<h1>Ídolos do Esporte</h1>
-    <p>No universo do esporte, alguns nomes transcendem as estatísticas e os recordes. Eles se tornam ídolos, figuras que personificam a paixão, a resiliência e a busca incansável pela excelência. Suas jornadas nos inspiram, suas vitórias se tornam nossas, e seus legados nos lembram do poder que um sonho tem quando aliado à disciplina. A seguir, celebramos alguns desses gigantes que, com seu talento e determinação, não apenas dominaram suas modalidades, mas também marcaram para sempre a história.</p>
-<ul>
-    <li>Pelé</li>
-    <li>Ayrton Senna</li>
-    <li>Marta</li>
-    <li>Michael Jordan</li>
-    <li>Serena Williams</li>
-    <li>Usain Bolt</li>
-</ul> 
+<body id="pagina-idolos">
 
-<div class = "noticia img">
-    <img src="../Imagens/" alt="" width="900" />
-    <form action="arquivo.sql" method="post" >
-         <div class="form-container">
+     <main class="container">
 
-            <p>
-                Junte-se à nossa comunidade! Ao preencher o formulário abaixo, você garante acesso a conteúdos exclusivos, novidades em primeira mão e ofertas especiais. O cadastro é rápido, fácil e seguro.
-            </p>
-            <fieldset>
-                <legend>Formulário de Assinatura</legend>
+        <section id="idolos" class="secao-pagina">
+            <h1>Ídolos do Esporte</h1>
+            <p>No universo do esporte, alguns nomes transcendem as estatísticas e os recordes. Eles se tornam ídolos, figuras que personificam a paixão, a resiliência e a busca incansável pela excelência. Suas jornadas nos inspiram, suas vitórias se tornam nossas, e seus legados nos lembram do poder que um sonho tem quando aliado à disciplina. A seguir, celebramos alguns desses gigantes que, com seu talento e determinação, não apenas dominaram suas modalidades, mas também marcaram para sempre a história.</p>
 
-                <div class="form-group">
-                    <label for="nome">Nome Completo:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" maxlength="15">
-                </div>
-
-                <div class="form-group">
-                    <label for="dataNascimento">Data de Nascimento:</label>
-                    <input type="date" id="dataNascimento" name="dataNascimento">
-                </div>
+            <div class="grid-idolos">
                 
-                <div class="form-group">
-                    <label for="senha">Crie uma Senha:</label>
-                    <input type="password" id="senha" name="senha" maxlength="8" required>
+                <div class="card card-idolo">
+                    <img src="../Imagens/pele.jpg" alt="Foto de Pelé">
+                    <div class="card-idolo-corpo">
+                        <h3>Pelé</h3>
+                        <p>Considerado o "Rei do Futebol", Pelé encantou o mundo com sua habilidade incomparável. Único jogador a vencer três Copas do Mundo, ele marcou mais de mil gols na carreira e se tornou um embaixador global do esporte.</p>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="estado">Estado de Nascimento:</label>
-                    <select id="estado" name="estado">
-                        <option value="" disabled selected>Selecione seu estado</option>
-                        <option value="DF">Distrito Federal</option>
-                        <option value="BA">Bahia</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MG">Minas Gerais</option>
-                        </select>
+                <div class="card card-idolo">
+                    <img src="../Imagens/senna.jpg" alt="Foto de Ayrton Senna">
+                    <div class="card-idolo-corpo">
+                        <h3>Ayrton Senna</h3>
+                        <p>Um mestre nas pistas de Fórmula 1, Senna cativou o Brasil e o mundo com sua pilotagem arrojada. Seus três campeonatos mundiais e sua determinação feroz fizeram dele um herói nacional e uma lenda eterna.</p>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label>Gênero:</label>
-                    <label><input type="radio" name="genero" value="Feminino"> Feminino</label>
-                    <label><input type="radio" name="genero" value="Masculino"> Masculino</label>
-                    <label><input type="radio" name="genero" value="Outro"> Outro</label>
+                <div class="card card-idolo">
+                    <img src="../Imagens/Simone.jpg" alt="Foto de Simone Biles">
+                    <div class="card-idolo-corpo">
+                        <h3>Simone Biles</h3>
+                        <p>Considerada a maior ginasta de todos os tempos, Simone Biles redefiniu os limites do esporte com movimentos que levam seu nome. Seu legado é marcado por sua vasta coleção de medalhas e sua coragem ao defender a saúde mental dos atletas.</p>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="comentarios">Comentários:</label>
-                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deixe uma mensagem (opcional)"></textarea>
+                <div class="card card-idolo">
+                    <img src="../Imagens/Jordan.jpg" alt="Foto de Michael Jordan">
+                    <div class="card-idolo-corpo">
+                        <h3>Michael Jordan</h3>
+                        <p>Mais que um jogador de basquete, Michael Jordan é um fenômeno cultural. Liderou o Chicago Bulls a seis títulos da NBA nos anos 90, transformando-se em um ícone global com sua competitividade e carisma.</p>
+                    </div>
                 </div>
 
-                <div class="form-group checkbox-group">
-                    <label>
-                        <input type="checkbox" name="aceite_termos" value="sim" required>
-                        Eu li e aceito os termos de uso do formulário.
-                    </label>
-                    <label>
-                        <input type="checkbox" name="aceite_lgpd" value="sim" required>
-                        Eu concordo com a política de privacidade (LGPD).
-                    </label>
+                <div class="card card-idolo">
+                    <img src="../Imagens/Serenna.jpg" alt="Foto de Serena Williams">
+                    <div class="card-idolo-corpo">
+                        <h3>Serena Williams</h3>
+                        <p>Dominando o tênis por mais de duas décadas, Serena redefiniu o esporte com sua força e mentalidade vencedora. Com 23 títulos de Grand Slam, é uma das maiores e mais influentes atletas de todos os tempos.</p>
+                    </div>
                 </div>
-                
-                <div class="form-actions">
-                    <button type="submit">Enviar Cadastro</button>
-                </div>
-                
-            </fieldset>
-        </form>
-    </div>
 
+                <div class="card card-idolo">
+                    <img src="../Imagens/bolt.jpg" alt="Foto de Usain Bolt">
+                    <div class="card-idolo-corpo">
+                        <h3>Usain Bolt</h3>
+                        <p>O homem mais rápido da história, Usain Bolt redefiniu os limites da velocidade. Dominou as provas de 100m e 200m com recordes mundiais e um carisma contagiante nas pistas olímpicas.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="assinatura" class="secao-pagina">
+            <h2>Junte-se à Nossa Comunidade!</h2>
+            <p>Ao preencher o formulário abaixo, você garante acesso a conteúdos exclusivos, novidades em primeira mão e ofertas especiais. O cadastro é rápido, fácil e seguro.</p>
+
+            <div class="card">
+                <form action="arquivo.sql" method="post" >
+                    <fieldset>
+                        <legend>Formulário de Assinatura</legend>
+                        
+                        <div class="form-group">
+                            <label for="nome">1. Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">2. Email:</label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">3. Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" maxlength="15">
+                        </div>
+                        <div class="form-group">
+                            <label for="dataNascimento">4. Data de Nascimento:</label>
+                            <input type="date" id="dataNascimento" name="dataNascimento">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">5. Crie uma Senha:</label>
+                            <input type="password" id="senha" name="senha" maxlength="8" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="estado">6. Estado de Nascimento:</label>
+                            <select id="estado" name="estado">
+                                <option value="" disabled selected>Selecione seu estado</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="BA">Bahia</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MG">Minas Gerais</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>7. Gênero:</label>
+                            <label><input type="radio" name="genero" value="Feminino"> Feminino</label>
+                            <label><input type="radio" name="genero" value="Masculino"> Masculino</label>
+                            <label><input type="radio" name="genero" value="Outro"> Outro</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="comentarios">8. Comentários:</label>
+                            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deixe uma mensagem (opcional)"></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label>9. <input type="checkbox" name="aceite_termos" value="sim" required> Eu li e aceito os termos de uso.</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label>10. <input type="checkbox" name="aceite_lgpd" value="sim" required> Eu concordo com a política de privacidade (LGPD).</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cep">11. CEP:</label>
+                            <input type="text" id="cep" name="cep" placeholder="00000-000">
+                        </div>
+                        <div class="form-group">
+                            <label for="endereco">12. Endereço:</label>
+                            <input type="text" id="endereco" name="endereco" placeholder="Rua, Avenida, etc.">
+                        </div>
+                        <div class="form-group">
+                            <label for="numero">13. Número:</label>
+                            <input type="text" id="numero" name="numero" placeholder="Nº da residência">
+                        </div>
+                        <div class="form-group">
+                            <label for="cidade">14. Cidade:</label>
+                            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade">
+                        </div>
+                        <div class="form-group">
+                            <label for="esporte_favorito">15. Esporte Favorito:</label>
+                            <select id="esporte_favorito" name="esporte_favorito">
+                                <option value="" disabled selected>Selecione um esporte</option>
+                                <option value="futebol">Futebol</option>
+                                <option value="basquete">Basquete</option>
+                                <option value="volei">Vôlei</option>
+                                <option value="tenis">Tênis</option>
+                                <option value="automobilismo">Automobilismo</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="time_coracao">16. Time do Coração:</label>
+                            <input type="text" id="time_coracao" name="time_coracao" placeholder="Seu time ou equipe preferida">
+                        </div>
+                        <div class="form-group">
+                            <label for="atleta_favorito">17. Atleta Favorito(a):</label>
+                            <input type="text" id="atleta_favorito" name="atleta_favorito" placeholder="Ídolo que mais admira">
+                        </div>
+                        <div class="form-group">
+                            <label>18. Como você se considera?</label>
+                            <label><input type="radio" name="nivel_interesse" value="casual"> Acompanho de vez em quando</label>
+                            <label><input type="radio" name="nivel_interesse" value="fa"> Sou fã e não perco um jogo/corrida</label>
+                            <label><input type="radio" name="nivel_interesse" value="praticante"> Sou praticante do esporte</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="como_conheceu">19. Como conheceu nosso site?</label>
+                            <select id="como_conheceu" name="como_conheceu">
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="redes_sociais">Redes Sociais</option>
+                                <option value="amigos">Indicação de amigos</option>
+                                <option value="google">Busca no Google</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label>20. <input type="checkbox" name="receber_newsletter" value="sim" checked> Desejo receber novidades por email.</label>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit">Enviar Cadastro</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
 </body>
 </html>

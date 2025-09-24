@@ -1,466 +1,450 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-    body {
-        
-        background: #ece6e6;
-        color: #333;
-        max-width: auto;
-        margin:  auto;
-        padding: 0 20px;
-      }
-      .flex-row {
-        display: flex;
-        align-items: center; 
-        margin-bottom: 40px; 
-        gap: 20px; 
-    }
-      
-      h1 {
-        text-align: center;
-        color: #00a4f0;
-        margin-bottom: 40px;
-      }
-    
-      .noticia {
-        /*'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-        font-family: "Montserrat";
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        padding: 20px;
-        margin-bottom: 30px;
-        align-items: center;
-      }
-      
-      .noticia img {
-        flex: 1 1 300px;
-        max-width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-        height: auto;
-      }
-      
-      .noticia-texto {
-        flex: 2 1 400px;
-      }
-      
-      .noticia-texto h2 {
-        color: #00a4f0;
-        font-weight: 600;
-        margin-bottom: 12px;
-        font-size: 1.3rem;
-      }
-      
-      hr.custom-hr {
-        border: none;
-        height: 3px;
-        background-color: #00a4f0;
-        border-radius: 3px;
-        margin: 40px 0;
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      /* Responsividade */
-      @media (max-width: 700px) {
-        .noticia {
-          flex-direction: column;
-        }
-        .noticia-texto, .noticia img {
-          flex: unset;
-          width: 100%;
-        }
-
-        .container-principal {
-          display: flex;
-          gap: 30px;
-      }
-      
-      /* --- Layout Principal (continua o mesmo) --- */
-
-.container-principal {
-  display: flex;
-  gap: 30px;
+/* ======================================================
+   PALETA DE CORES E FONTES GLOBAIS
+   ====================================================== */
+:root {
+    --cor-primaria: #00a4f0;
+    --cor-titulo: #024f72;
+    --cor-texto: #333;
+    --cor-fundo-pagina: #ece6e6;
+    --cor-fundo-card: #f8f9fa;   /* <<< NOSSO BRANCO OFICIAL PARA ELEMENTOS */
+    --cor-fundo-escuro: #212529; /* Rodapé */
+    --cor-texto-claro: #adb5bd;    /* Texto no rodapé */
+    --cor-bordas: #dee2e6;
 }
 
-.coluna-ranking,
-.coluna-resultados {
-  flex: 1;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Urbanist:wght@400;700&display=swap');
 
-/* --- Estilos da Lista de Ranking (continua o mesmo) --- */
-
-.lista-ranking {
-  list-style-type: none;
-  padding: 0;
-}
-.lista-ranking li {
-  padding-bottom: 8px;
-  margin-bottom: 8px;
-  border-bottom: 1px solid #ccc; 
-}
-.lista-ranking li:last-child {
-  border-bottom: none;
-}
-
-
-/* --- ESTILOS QUE AGORA SÃO 100% SEGUROS PARA O TÊNIS --- */
-
-/* Dizemos: Aplique na tabela que está DENTRO da seção de tênis */
-.secao-tenis .tabela-resultados {
-  width: 100%;
-}
-
-.secao-tenis .tabela-resultados td {
-  padding: 5px;
-}
-
-/* Alinhamento dos nomes na tabela de tênis */
-.secao-tenis .time-casa { text-align: right; }
-.secao-tenis .time-visitante { text-align: left; }
-.secao-tenis .placar { text-align: center; font-weight: bold; }      
-      }
-      .tabela-resultados {
-        width: 100%;
-        max-width: 700px;
-        margin: 20px auto;
-        border-collapse: collapse; /* Tira o espaço entre as células */
-        background-color: #ffffff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        border-radius: 8px;
-        overflow: hidden; /* Garante que o border-radius funcione */
-    }
-    
-    /* Estilo das células do cabeçalho (th) e das células de dados (td) */
-    .tabela-resultados th,
-    .tabela-resultados td {
-        padding: 12px 15px;
-        text-align: center;
-        border-bottom: 1px solid #e0e0e0;
-    }
-    
-    /* Estilo específico para o cabeçalho */
-    .tabela-resultados thead {
-        background-color: #f8f9fa;
-        font-size: 14px;
-        color: #6c757d;
-    }
-    
-    /* Estilo para as linhas do corpo da tabela */
-    .tabela-resultados tbody tr:last-child td {
-        border-bottom: none; /* Remove a borda da última linha */
-    }
-    
-    /* Deixa o nome do time da casa alinhado à direita e o visitante à esquerda */
-    .time-casa { text-align: right; font-weight: bold; }
-    .time-visitante { text-align: left; font-weight: bold; }
-    
-    /* Deixa a coluna do placar com um pouco menos de largura */
-    .coluna-placar {
-        width: 80px;
-    }
-    
-    .placar {
-        font-weight: bold;
-        font-size: 1.1em;
-    }
-.calendarios-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;      
-}
-
-
-.calendarios-container table {
-    flex: 1 1 450px; 
-}
-.cabeçalho{
-  display: flex;                 
-    justify-content: space-between; 
-    align-items: center;
-    background-color: #dfd5d5;
-}     
-.titulo{
-  
-    font-family: "outfit";
-    font-size: 40px; 
-    font-weight: bold;
-    color: #024f72;
-    text-decoration: none;
-}
-
-.menu {
-    font-family: "outfit";
-    list-style: none;
+/* ======================================================
+   ESTILOS GERAIS E BASE
+   ====================================================== */
+body {
+    background: var(--cor-fundo-pagina);
+    color: var(--cor-texto);
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    
-    
 }
-
-.menu li {
-    border-right: 2px solid black;
-     flex-grow: 1;
-     text-align: center;
-}
-
-.menu li:last-child {
-    border-right: none; 
-}
-
-.menu li a {
-    color: #00a4f0;
-    text-decoration: none;
-    padding: 14px 50px ;
-    display: block;
-}
-
-.menu li a:hover {
-    background: rgb(129, 128, 128);
-    color: aquamarine;
-    box-shadow: 3px 7px rgb(0, 217, 255);
-    text-shadow: 6px 3px 6px rgb(134, 134, 134);
-}
-.rodape {
-  background-color: rgb(212, 204, 204);
-  color: #3c3f41;
-  font-size: 20px;
-  text-align: center;
-  margin: 40px auto 0 auto;
-  border-radius: 10px; 
-  font-family: "lato";
-}
-.rodape-container {
-  display: flex;            
-  justify-content: center;  
-  align-items: flex-start;  
-  flex-wrap: wrap;         
-  gap: 40px;                
-  padding: 50px 10px;      
-  max-width: 1200px;       
-  margin: 0 auto;           
-}
-.rodape-coluna span {
-    color: white;
-    font-weight: bold;
-    font-size: 1.8em;
-    margin-bottom: 25px;
-    display: block;
-}
-.rodape-titulo {
-    color: #00a4f0 ;
-    font-size: 2em; /* Tamanho grande */
-    margin: 0 0 30px 0; /* Remove margem padrão e adiciona espaço embaixo */
-}
-.rodape-contato-detalhes p {
-    margin: 0;
-    display: flex;             /* LIGA O FLEXBOX */
-    justify-content: center;   /* Centraliza os itens na linha */
-    flex-wrap: wrap;           /* Permite que quebrem em telas menores */
-    gap: 20px 40px;            /* Espaço vertical e horizontal entre os itens */
-    margin-bottom: 30px;
-}
-.rodape-contato-detalhes p {
-    margin: 0;
-}
-.rodape a {
-  text-decoration: none;
-  color:#3c3f41;
-  margin-bottom: 5px;
-  transition: color 0.3s ease; 
-}
-
-
-.rodape a:hover {
-  color: #00a4f0; /* Muda para a cor de destaque no hover */
-  text-decoration: underline;
-}
-
-.rodape-coluna {
-  width: calc(100% / 5 - 20px); 
-  min-width: 180px; 
-  padding: 10px;
-  text-align: center;
-}
-
-.rodape span {
-  color: rgb(255, 255, 255);
-}
-
-.rodape-direitos {
-  width: 100%;
-  background-color: #00a4f0;
-  padding: 7px 8px; 
-  margin: 0px;
-  text-align: center; 
-  box-sizing: border-box; 
-}
-/*Página 3*/
-/* Container que faz a tabela rolar horizontalmente em telas pequenas */
-.tabela-container {
-    overflow-x: auto;
-}
-
-table {
-    width: 70%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background-color: rgb(248, 245, 245);
-    margin: auto;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: left;
-}
-
-th {
-    background-color:#00a4f0;
-    color: white;
-    font-weight: bold;
-}
-
-td img {
-    max-width: 80px; /* Define um tamanho fixo para as imagens na tabela */
-    height: auto;
-    border-radius: 5px;
-}
-
-/* Zebra striping para linhas alternadas */
-tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
-
-/* Efeito de hover nas linhas */
-tbody tr:hover {
-    background-color: #f0f0f0;
-}
-  .lista-recordes ul {
-    list-style: none;
-    padding: 0;
-}
-.lista-recordes li {
-    background-color: #f8f9fa; /* Mesma cor de fundo dos cards */
-    border: 1px solid #dee2e6; /* Mesma borda dos cards */
-    border-radius: 8px;        /* Mesmos cantos arredondados */
-    padding: 20px;             /* Mesmo espaçamento interno */
-    margin-bottom: 15px;       /* Mesma distância entre itens */
-}
-.lista-recordes h3 {
-    margin-top: 0;
-    color: #0056b3; /* Mesma cor de título dos cards */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .secao-pagina {
-    padding: 40px 15px; /* Adiciona um bom espaço vertical entre as seções */
-    border-bottom: 1px solid #e9ecef; /* Linha divisória sutil */
+    padding: 40px 15px;
+    border-bottom: 1px solid var(--cor-bordas);
 }
-
-/* Para remover a borda da última seção */
 .secao-pagina:last-child {
     border-bottom: none;
 }
-
-/* Centraliza os títulos das seções */
+h1 {
+    text-align: center;
+    color: var(--cor-primaria);
+    margin-bottom: 40px;
+}
 .secao-pagina h2 {
     text-align: center;
     margin-bottom: 30px;
 }
- .container-cards {
-            font-family: sans-serif;
-            max-width: 700px; /* Largura máxima na página */
-            margin: 20px auto;  /* Centraliza o container */
-        }
 
-        /* Estilo de cada card individual */
-        .card-curiosidade {
-            background-color: #f8f9fa; /* Cor de fundo suave */
-            border: 1px solid #dee2e6; /* Borda sutil */
-            border-radius: 8px;        /* Cantos arredondados */
-            padding: 20px;             /* Espaçamento interno */
-            margin-bottom: 15px;       /* Distância entre os cards */
-        }
+/* ======================================================
+   CABEÇALHO E MENU
+   ====================================================== */
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: var(--cor-fundo-card);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.titulo {
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cor-titulo);
+    text-decoration: none;
+}
+.menu {
+    font-family: "Outfit", sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.menu li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+.menu li a:hover {
+    color: var(--cor-titulo);
+}
+.menu li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 50%;
+    background: var(--cor-primaria);
+}
+.menu li a:hover::after {
+    width: 100%;
+    right: 0;
+}
+ .noticia {
+font-family: "Montserrat";
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+background: white;
+ border-radius: 10px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+padding: 20px;
+margin-bottom: 30px;
+align-items: center;
+}
+.noticia img {
+flex: 1 1 300px;
+max-width: 100%;
+border-radius: 10px;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+ height: auto;
+}
+.noticia-texto {
+flex: 2 1 400px;
+}
+.noticia-texto h2 {
+color: #00a4f0;
+font-weight: 600;
+margin-bottom: 12px;
+font-size: 1.3rem;
+}
+/* ======================================================
+   RODAPÉ
+   ====================================================== */
+.rodape {
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-claro);
+    font-family: "Lato", sans-serif;
+    margin-top: 40px;
+}
+.rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.rodape-coluna {
+    flex: 1 1 200px;
+    min-width: 180px;
+}
+.rodape-coluna h4 {
+    color: var(--cor-fundo-card);
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.rodape-nav a, .rodape-redes-sociais a {
+    display: block;
+    margin-bottom: 10px;
+}
+.rodape a {
+    text-decoration: none;
+    color: var(--cor-texto-claro);
+}
+.rodape a:hover {
+    color: var(--cor-primaria);
+    text-decoration: underline;
+}
+.rodape-direitos {
+    background-color: var(--cor-primaria);
+    padding: 15px 10px;
+    text-align: center;
+}
+.rodape-direitos p {
+    margin: 0;
+    color: var(--cor-fundo-card);
+    font-size: 0.9rem;
+}
 
-        /* Estilo para o título dentro do card */
-        .card-curiosidade h3 {
-            margin-top: 0;
-            color: #0056b3; /* Cor do título */
-        }
+/* ======================================================
+   COMPONENTES GERAIS (Cards, Tabelas, etc)
+   ====================================================== */
+.card, .card-curiosidade, .lista-recordes li {
+    background-color: var(--cor-fundo-card);
+    border: 1px solid var(--cor-bordas);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.lista-recordes ul {
+    list-style: none;
+    padding: 0;
+}
+.tabela-container {
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid var(--cor-bordas);
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo-card);
+    font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f1f1f1; /* Tom ligeiramente diferente para as listras */
+}
+tbody tr:hover {
+    background-color: #e9e9e9;
+}
+td img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 5px;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
-        /* Estilo para o parágrafo dentro do card */
-        .card-curiosidade p {
-            margin-bottom: 0;
-            line-height: 1.6;
-        }
-/*Página 4*/
- }
-        .form-container {
-            max-width: 600px;
-            margin: 40px auto;
-            padding: 30px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            border: 1px solid #ddd;
-        }
-        .form-container fieldset {
-            border: none;
-            padding: 0;
-            margin: 0;
-        }
-        .form-container legend {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #0056b3;
-            text-align: center;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        .form-group label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        /* --- Regra principal que combina vários campos --- */
-        .form-group input[type="text"],
-        .form-group input[type="tel"],
-        .form-group input[type="date"],
-        .form-group input[type="password"],
-        .form-group input[type="email"],
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box; 
-        }
-        .checkbox-group label {
-            font-weight: normal;
-        }
-        .form-actions {
-            text-align: center;
-        }
-        .form-actions button {
-            background-color: #007BFF;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .form-actions button:hover {
-            background-color: #0056b3;
-        }
+/* ======================================================
+   PÁGINA 1 (INDEX)
+   ====================================================== */
+.hero-banner {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Imagens/banner-principal.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-fundo-card);
+}
+.hero-texto h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: var(--cor-fundo-card);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.hero-texto p {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.grid-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.card-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* ======================================================
+   PÁGINA 2 (RESULTADOS)
+   ====================================================== */
+.layout-colunas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.coluna {
+    flex: 1;
+    min-width: 300px;
+}
+.lista-ranking-tenis {
+    list-style: decimal inside;
+    padding: 20px;
+    background-color: var(--cor-fundo-card);
+    border: 1px solid var(--cor-bordas);
+    border-radius: 8px;
+}
+.lista-ranking-tenis li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--cor-bordas);
+    font-family: "Lato", sans-serif;
+}
+.lista-ranking-tenis li:last-child {
+    border-bottom: none;
+}
+.card-noticia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: var(--cor-fundo-card);
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.card-noticia img {
+    flex: 1 1 300px;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 250px;
+}
+.card-noticia .img-futebol-destaque {
+    height: auto;
+    max-width: 400px;
+    flex: none;
+}
+.tabela-resultados {
+    background-color: var(--cor-fundo-card);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabela-resultados th, .tabela-resultados td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid var(--cor-bordas);
+}
+.tabela-resultados th {
+    background-color: var(--cor-primaria);
+}
+.tabela-resultados tbody tr:last-child td {
+    border-bottom: none;
+}
+.time-casa {
+    text-align: right;
+    font-weight: bold;
+}
+.time-visitante {
+    text-align: left;
+    font-weight: bold;
+}
+.placar {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* ======================================================
+   PÁGINA 4 (ÍDOLOS) E FORMULÁRIO
+   ====================================================== */
+.grid-idolos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+.card-idolo {
+    flex: 1 1 300px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-fundo-card);
+    border: 1px solid var(--cor-bordas);
+    border-radius: 8px;
+}
+.card-idolo img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.card-idolo-corpo {
+    padding: 20px;
+    flex-grow: 1;
+}
+.form-container {
+    background-color: var(--cor-fundo-card);
+    border-radius: 10px;
+    border: 1px solid var(--cor-bordas);
+}
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-actions button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo-card);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-actions button:hover {
+    background-color: #0056b3;
+}
+
+/* ======================================================
+   PÁGINA 5 (REGRAS)
+   ====================================================== */
+.card-regra {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.coluna-texto-regra, .coluna-video-regra {
+    flex: 1 1 400px;
+}
+.img-regra {
+    width: 30%;
+    border-radius: 8px;
+    margin: 10px 0;
+    height: 120px; /* Nova altura */
+    object-fit: cover;
+}
+
+/* ======================================================
+   FONTES ESPECÍFICAS POR PÁGINA
+   ====================================================== */
+#pagina-idolos p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.1rem;
+}
+#pagina-regras p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.2rem;
+}
