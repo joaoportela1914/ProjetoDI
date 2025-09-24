@@ -303,4 +303,164 @@
   text-align: center; 
   box-sizing: border-box; 
 }
- 
+/*Página 3*/
+/* Container que faz a tabela rolar horizontalmente em telas pequenas */
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(248, 245, 245);
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color:#00a4f0;
+    color: white;
+    font-weight: bold;
+}
+
+td img {
+    max-width: 80px; /* Define um tamanho fixo para as imagens na tabela */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Zebra striping para linhas alternadas */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Efeito de hover nas linhas */
+tbody tr:hover {
+    background-color: #f0f0f0;
+}
+  .lista-recordes ul {
+    list-style: none;
+    padding: 0;
+}
+.lista-recordes li {
+    background-color: #f8f9fa; /* Mesma cor de fundo dos cards */
+    border: 1px solid #dee2e6; /* Mesma borda dos cards */
+    border-radius: 8px;        /* Mesmos cantos arredondados */
+    padding: 20px;             /* Mesmo espaçamento interno */
+    margin-bottom: 15px;       /* Mesma distância entre itens */
+}
+.lista-recordes h3 {
+    margin-top: 0;
+    color: #0056b3; /* Mesma cor de título dos cards */
+}
+.secao-pagina {
+    padding: 40px 15px; /* Adiciona um bom espaço vertical entre as seções */
+    border-bottom: 1px solid #e9ecef; /* Linha divisória sutil */
+}
+
+/* Para remover a borda da última seção */
+.secao-pagina:last-child {
+    border-bottom: none;
+}
+
+/* Centraliza os títulos das seções */
+.secao-pagina h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+ .container-cards {
+            font-family: sans-serif;
+            max-width: 700px; /* Largura máxima na página */
+            margin: 20px auto;  /* Centraliza o container */
+        }
+
+        /* Estilo de cada card individual */
+        .card-curiosidade {
+            background-color: #f8f9fa; /* Cor de fundo suave */
+            border: 1px solid #dee2e6; /* Borda sutil */
+            border-radius: 8px;        /* Cantos arredondados */
+            padding: 20px;             /* Espaçamento interno */
+            margin-bottom: 15px;       /* Distância entre os cards */
+        }
+
+        /* Estilo para o título dentro do card */
+        .card-curiosidade h3 {
+            margin-top: 0;
+            color: #0056b3; /* Cor do título */
+        }
+
+        /* Estilo para o parágrafo dentro do card */
+        .card-curiosidade p {
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+/*Página 4*/
+ }
+        .form-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+        .form-container fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        .form-container legend {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #0056b3;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        /* --- Regra principal que combina vários campos --- */
+        .form-group input[type="text"],
+        .form-group input[type="tel"],
+        .form-group input[type="date"],
+        .form-group input[type="password"],
+        .form-group input[type="email"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; 
+        }
+        .checkbox-group label {
+            font-weight: normal;
+        }
+        .form-actions {
+            text-align: center;
+        }
+        .form-actions button {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .form-actions button:hover {
+            background-color: #0056b3;
+        }
